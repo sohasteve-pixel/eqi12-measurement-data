@@ -1,0 +1,39 @@
+﻿EQi12 Docker Website Stack Benchmark
+Date: 2026-07-13T06:51:07.5761300-07:00
+
+NGINX HTTP isolated:
+
+Concurrency Success Errors     RPS     AvgMs     P95Ms
+----------- ------- ------     ---     -----     -----
+         10   73388      0 4892.31     2.001     2.741
+         50      27      0    1.75 10900.545 15457.844
+        100      57      0    3.67 13501.324 15523.401
+
+
+
+PostgreSQL pgbench key lines:
+transaction type: <builtin: TPC-B (sort of)>
+number of clients: 10
+latency average = 3.002 ms
+initial connection time = 8.437 ms
+tps = 3323.385361 (without initial connection time)
+transaction type: <builtin: TPC-B (sort of)>
+number of clients: 30
+latency average = 6.830 ms
+initial connection time = 23.536 ms
+tps = 4384.849293 (without initial connection time)
+
+Redis key lines:
+SET: 145985.41 requests per second, p50=0.159 msec
+GET: 158604.28 requests per second, p50=0.151 msec
+SET: 162337.66 requests per second, p50=0.303 msec
+GET: 167084.38 requests per second, p50=0.295 msec
+
+Mixed 3-service workload:
+HTTP batches=12 concurrency=50 success=134492 errors=0
+HTTP RPS avg=2239.62 min=2.19 max=9941.09
+HTTP p95 latency avg=4559.203 ms; host CPU avg=59.25%
+Container status after test:
+eqi12-docker-test-database-1|Up 8 hours (healthy)
+eqi12-docker-test-web-1|Up 8 hours (healthy)
+eqi12-docker-test-cache-1|Up 8 hours (healthy)

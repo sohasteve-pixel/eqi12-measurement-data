@@ -1,0 +1,4 @@
+﻿"Service","Ready","RecoverySeconds","Persistence"
+"nginx","True","0.66","configuration reloaded"
+"PostgreSQL","True","0.833","True"
+"Redis","True","2.042","True"

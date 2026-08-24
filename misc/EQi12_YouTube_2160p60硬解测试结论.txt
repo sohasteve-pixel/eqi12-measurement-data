@@ -1,0 +1,38 @@
+EQi12 YouTube 2160p60浏览器硬解测试
+日期：2026-07-12
+
+结论：通过
+
+测试条件：
+- 浏览器：Microsoft Edge
+- 视频：COSTA RICA IN 4K 60fps HDR (ULTRA HD)
+- 视频地址：https://www.youtube.com/watch?v=LXb3EKWsInQ
+- YouTube画质：2160p60 4K
+- 统计方式：YouTube“详细统计信息”+ Windows GPU Engine性能计数器
+
+详细统计信息：
+- Current / Optimal Res：3840x2160@60 / 3840x2160@60
+- 编码：VP9（vp09）视频 + Opus音频
+- 色彩：bt709 / bt709
+- 测量开始：250 dropped of 28458
+- 测量结束：250 dropped of 30506
+- 30秒正式测量阶段新增帧：2048
+- 30秒正式测量阶段新增掉帧：0
+- 正式测量阶段掉帧率：0%
+
+GPU Video Decode（逐秒汇总，30个样本）：
+- 平均：25.61%
+- 峰值：27.64%
+- 全GPU Engine峰值：27.64%
+
+判定：
+- 4K60源与最佳分辨率均为3840x2160@60。
+- 正式测量阶段没有新增掉帧。
+- GPU Video Decode持续有负载，证明浏览器使用GPU视频解码路径。
+- 播放前/切换画质阶段累计的250个掉帧不计入稳定播放阶段结果，但在原始截图中如实保留。
+
+证据：
+- EQi12_YouTube_2160p60_StatsForNerds_Start.png
+- EQi12_YouTube_2160p60_StatsForNerds_30sec.png
+- EQi12_YouTube_2160p60_GPUDecode_30s_Accurate.log
+- EQi12_YouTube_2160p60_StatsForNerds_Start.png及30秒截图均未包含Codex、桌面任务栏或其他软件。

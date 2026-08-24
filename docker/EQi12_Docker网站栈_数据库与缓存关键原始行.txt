@@ -1,0 +1,21 @@
+PostgreSQL pgbench原始关键行：
+number of clients: 10
+number of failed transactions: 0 (0.000%)
+latency average = 3.002 ms
+tps = 3323.385361 (without initial connection time)
+number of clients: 30
+number of failed transactions: 0 (0.000%)
+latency average = 6.830 ms
+tps = 4384.849293 (without initial connection time)
+
+Redis redis-benchmark原始关键行：
+SET: 145985.41 requests per second, p50=0.159 msec
+GET: 158604.28 requests per second, p50=0.151 msec
+SET: 162337.66 requests per second, p50=0.303 msec
+GET: 167084.38 requests per second, p50=0.295 msec
+
+混合负载PostgreSQL原始关键行：
+number of clients: 20
+number of failed transactions: 0 (0.000%)
+latency average = 9.582 ms
+tps = 2082.949632 (without initial connection time)

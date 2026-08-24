@@ -1,0 +1,75 @@
+﻿{
+    "Name":  "EQi12 4K60",
+    "Locations":  [
+                      "C:\\EQi12_JellyfinNative\\media"
+                  ],
+    "CollectionType":  "movies",
+    "LibraryOptions":  {
+                           "Enabled":  true,
+                           "EnablePhotos":  true,
+                           "EnableRealtimeMonitor":  false,
+                           "EnableLUFSScan":  false,
+                           "EnableChapterImageExtraction":  false,
+                           "ExtractChapterImagesDuringLibraryScan":  false,
+                           "EnableTrickplayImageExtraction":  false,
+                           "ExtractTrickplayImagesDuringLibraryScan":  false,
+                           "PathInfos":  [
+                                             {
+                                                 "Path":  "C:\\EQi12_JellyfinNative\\media"
+                                             }
+                                         ],
+                           "SaveLocalMetadata":  false,
+                           "EnableInternetProviders":  false,
+                           "EnableAutomaticSeriesGrouping":  true,
+                           "EnableEmbeddedTitles":  false,
+                           "EnableEmbeddedExtrasTitles":  false,
+                           "EnableEmbeddedEpisodeInfos":  false,
+                           "AutomaticRefreshIntervalDays":  0,
+                           "SeasonZeroDisplayName":  "Specials",
+                           "DisabledLocalMetadataReaders":  [
+
+                                                            ],
+                           "DisabledSubtitleFetchers":  [
+
+                                                        ],
+                           "SubtitleFetcherOrder":  [
+
+                                                    ],
+                           "DisabledMediaSegmentProviders":  [
+
+                                                             ],
+                           "MediaSegmentProviderOrder":  [
+
+                                                         ],
+                           "SkipSubtitlesIfEmbeddedSubtitlesPresent":  false,
+                           "SkipSubtitlesIfAudioTrackMatches":  true,
+                           "RequirePerfectSubtitleMatch":  true,
+                           "SaveSubtitlesWithMedia":  true,
+                           "SaveLyricsWithMedia":  false,
+                           "SaveTrickplayWithMedia":  false,
+                           "DisabledLyricFetchers":  [
+
+                                                     ],
+                           "LyricFetcherOrder":  [
+
+                                                 ],
+                           "PreferNonstandardArtistsTag":  false,
+                           "UseCustomTagDelimiters":  false,
+                           "CustomTagDelimiters":  [
+                                                       "/",
+                                                       "|",
+                                                       ";",
+                                                       "\\"
+                                                   ],
+                           "DelimiterWhitelist":  [
+
+                                                  ],
+                           "AutomaticallyAddToCollection":  false,
+                           "AllowEmbeddedSubtitles":  "AllowAll",
+                           "TypeOptions":  [
+
+                                           ]
+                       },
+    "ItemId":  "863ea4fc43810e1c4bc019ef62b93345",
+    "RefreshStatus":  "Idle"
+}

@@ -1,0 +1,26 @@
+﻿EQi12 LOW-OVERHEAD BACKGROUND RESOURCE SAMPLE
+Start: 2026-07-13 09:52:25
+End: 2026-07-13 09:57:28
+Method: one Windows performance-counter request, 60 samples x 5 seconds; no per-sample Docker polling.
+CPU avg/min/max: 16.87 / 13.39 / 23.05 %
+Available RAM avg/min/max: 5869 / 5756 / 5946 MB
+
+DOCKER BEFORE:
+eqi12-jellyfin|0.02%|145.5MiB / 7.638GiB
+eqi12-docker-test-database-1|2.58%|39.51MiB / 7.638GiB
+eqi12-docker-test-web-1|0.00%|8.633MiB / 7.638GiB
+eqi12-docker-test-cache-1|1.92%|127.1MiB / 7.638GiB
+
+DOCKER AFTER:
+eqi12-jellyfin|0.13%|146.2MiB / 7.638GiB
+eqi12-docker-test-database-1|0.00%|39.28MiB / 7.638GiB
+eqi12-docker-test-web-1|0.00%|8.406MiB / 7.638GiB
+eqi12-docker-test-cache-1|0.54%|126.9MiB / 7.638GiB
+
+CONTAINER HEALTH:
+eqi12-jellyfin|Up 11 hours (healthy)|127.0.0.1:18096->8096/tcp
+eqi12-docker-test-database-1|Up 35 minutes (healthy)|5432/tcp
+eqi12-docker-test-web-1|Up 35 minutes (healthy)|0.0.0.0:18080->80/tcp, [::]:18080->80/tcp
+eqi12-docker-test-cache-1|Up 35 minutes (healthy)|6379/tcp
+
+Boundary: Windows, Codex and other resident desktop applications remained open; this is an unattended background-state sample, not a clean-boot OS idle measurement.

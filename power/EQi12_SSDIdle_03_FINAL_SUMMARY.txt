@@ -1,0 +1,16 @@
+﻿EQi12 INTERNAL SSD + IDLE RESOURCE SUMMARY
+Started: 2026-07-13 09:41:48
+WinSAT exit code: NOT_RUN_NONADMIN; elapsed seconds: 0.01
+
+WINSAT KEY RESULTS:
+
+IDLE 5-MINUTE SAMPLE (60 x 5s):
+CPU avg/min/max: 21.88 / 8.38 / 36.88 %
+Used RAM avg/min/max: 10232 / 10041 / 10370 MB
+
+CONTAINERS AFTER SAMPLE:
+eqi12-jellyfin|Up 11 hours (healthy)|127.0.0.1:18096->8096/tcp
+eqi12-docker-test-database-1|Up 28 minutes (healthy)|5432/tcp
+eqi12-docker-test-web-1|Up 28 minutes (healthy)|0.0.0.0:18080->80/tcp, [::]:18080->80/tcp
+eqi12-docker-test-cache-1|Up 28 minutes (healthy)|6379/tcp
+

@@ -1,0 +1,145 @@
+﻿{
+    "Name":  "EQi12_4K60_QSV_Test",
+    "ServerId":  "0a47d3dc3d1b430ba71655411d20e358",
+    "Id":  "b21f2c0cecaefbec5cee7c1250dd6509",
+    "Container":  "mov,mp4,m4a,3gp,3g2,mj2",
+    "MediaSources":  [
+                         {
+                             "Protocol":  "File",
+                             "Id":  "b21f2c0cecaefbec5cee7c1250dd6509",
+                             "Path":  "C:\\EQi12_JellyfinNative\\media\\EQi12_4K60_QSV_Test.mp4",
+                             "Type":  "Default",
+                             "Container":  "mp4",
+                             "Size":  135804516,
+                             "Name":  "EQi12_4K60_QSV_Test",
+                             "IsRemote":  false,
+                             "ETag":  "be3dff766237ec22f85c88861e12612c",
+                             "RunTimeTicks":  100000000,
+                             "ReadAtNativeFramerate":  false,
+                             "IgnoreDts":  false,
+                             "IgnoreIndex":  false,
+                             "GenPtsInput":  false,
+                             "SupportsTranscoding":  true,
+                             "SupportsDirectStream":  true,
+                             "SupportsDirectPlay":  true,
+                             "IsInfiniteStream":  false,
+                             "UseMostCompatibleTranscodingProfile":  false,
+                             "RequiresOpening":  false,
+                             "RequiresClosing":  false,
+                             "RequiresLooping":  false,
+                             "SupportsProbing":  true,
+                             "VideoType":  "VideoFile",
+                             "MediaStreams":  [
+                                                  {
+                                                      "Codec":  "h264",
+                                                      "CodecTag":  "avc1",
+                                                      "Language":  "und",
+                                                      "TimeBase":  "1/15360",
+                                                      "VideoRange":  "SDR",
+                                                      "VideoRangeType":  "SDR",
+                                                      "AudioSpatialFormat":  "None",
+                                                      "DisplayTitle":  "4K H264 SDR",
+                                                      "NalLengthSize":  "4",
+                                                      "IsInterlaced":  false,
+                                                      "IsAVC":  true,
+                                                      "BitRate":  108640528,
+                                                      "BitDepth":  8,
+                                                      "RefFrames":  1,
+                                                      "IsDefault":  true,
+                                                      "IsForced":  false,
+                                                      "IsHearingImpaired":  false,
+                                                      "Height":  2160,
+                                                      "Width":  3840,
+                                                      "AverageFrameRate":  60,
+                                                      "RealFrameRate":  60,
+                                                      "ReferenceFrameRate":  60,
+                                                      "Profile":  "Constrained Baseline",
+                                                      "Type":  "Video",
+                                                      "AspectRatio":  "16:9",
+                                                      "Index":  0,
+                                                      "IsExternal":  false,
+                                                      "IsTextSubtitleStream":  false,
+                                                      "SupportsExternalStream":  false,
+                                                      "PixelFormat":  "yuv420p",
+                                                      "Level":  52,
+                                                      "IsAnamorphic":  false
+                                                  }
+                                              ],
+                             "MediaAttachments":  [
+
+                                                  ],
+                             "Formats":  [
+
+                                         ],
+                             "Bitrate":  108643612,
+                             "RequiredHttpHeaders":  {
+
+                                                     },
+                             "TranscodingSubProtocol":  "http",
+                             "HasSegments":  false
+                         }
+                     ],
+    "Path":  "C:\\EQi12_JellyfinNative\\media\\EQi12_4K60_QSV_Test.mp4",
+    "ChannelId":  null,
+    "RunTimeTicks":  100000000,
+    "IsFolder":  false,
+    "Type":  "Movie",
+    "UserData":  {
+                     "PlaybackPositionTicks":  0,
+                     "PlayCount":  0,
+                     "IsFavorite":  false,
+                     "Played":  false,
+                     "Key":  "b21f2c0c-ecae-fbec-5cee-7c1250dd6509",
+                     "ItemId":  "b21f2c0cecaefbec5cee7c1250dd6509"
+                 },
+    "MediaStreams":  [
+                         {
+                             "Codec":  "h264",
+                             "CodecTag":  "avc1",
+                             "Language":  "und",
+                             "TimeBase":  "1/15360",
+                             "VideoRange":  "SDR",
+                             "VideoRangeType":  "SDR",
+                             "AudioSpatialFormat":  "None",
+                             "DisplayTitle":  "4K H264 SDR",
+                             "NalLengthSize":  "4",
+                             "IsInterlaced":  false,
+                             "IsAVC":  true,
+                             "BitRate":  108640528,
+                             "BitDepth":  8,
+                             "RefFrames":  1,
+                             "IsDefault":  true,
+                             "IsForced":  false,
+                             "IsHearingImpaired":  false,
+                             "Height":  2160,
+                             "Width":  3840,
+                             "AverageFrameRate":  60,
+                             "RealFrameRate":  60,
+                             "ReferenceFrameRate":  60,
+                             "Profile":  "Constrained Baseline",
+                             "Type":  "Video",
+                             "AspectRatio":  "16:9",
+                             "Index":  0,
+                             "IsExternal":  false,
+                             "IsTextSubtitleStream":  false,
+                             "SupportsExternalStream":  false,
+                             "PixelFormat":  "yuv420p",
+                             "Level":  52,
+                             "IsAnamorphic":  false
+                         }
+                     ],
+    "VideoType":  "VideoFile",
+    "ImageTags":  {
+                      "Primary":  "164be6cfce17d87b3406ff99eb9069e1"
+                  },
+    "BackdropImageTags":  [
+
+                          ],
+    "ImageBlurHashes":  {
+                            "Primary":  {
+                                            "164be6cfce17d87b3406ff99eb9069e1":  "W~LN=B;ss~z6iQ]~x]s7W;nUaes,jZbHjZfka|jaxus8j?i~jJoK"
+                                        }
+                        },
+    "LocationType":  "FileSystem",
+    "MediaType":  "Video"
+}

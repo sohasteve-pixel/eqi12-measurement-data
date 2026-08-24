@@ -1,0 +1,31 @@
+﻿EQi12 Docker Recovery and Backup Test
+Marker: 
+EQI12-RECOVERY-bc292a1b0fd742d3bca133b8ac6d35cc
+
+
+Service    Ready RecoverySeconds Persistence           
+-------    ----- --------------- -----------           
+nginx       True            0.66 configuration reloaded
+PostgreSQL  True           0.833 True                  
+Redis       True           2.042 True                  
+
+
+
+Backup and restore:
+
+
+PostgresDumpBytes    : 1344
+PostgresRestoreMatch : True
+RedisBase64Bytes     : 82
+RedisRestoreMatch    : False
+NginxConfigBytes     : 7546
+
+
+
+
+Final containers:
+NAME=/eqi12-docker-test-web-1 STATUS=running HEALTH=starting RESTARTS=0
+NAME=/eqi12-docker-test-database-1 STATUS=running HEALTH=starting RESTARTS=0
+NAME=/eqi12-docker-test-cache-1 STATUS=running HEALTH=starting RESTARTS=0
+Cleanup PostgreSQL temp DB count: 0
+Cleanup Redis DB15 size: 0

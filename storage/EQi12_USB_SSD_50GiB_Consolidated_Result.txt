@@ -1,0 +1,38 @@
+Beelink EQi12 - USB SSD 50GiB Sustained Transfer and Integrity Test
+Date: 2026-07-11 (America/Los_Angeles)
+
+Device: EAGET SSD 1TB
+Connection: USB
+Volume: EQi12_TEST, NTFS
+Test size: 53,687,091,200 bytes (50 GiB)
+Physical connector: rear panel, first port from the left (后面左一)
+
+Write:
+- Completed in two segments because the controller process reached its execution-time limit.
+- Final file size: 53,687,091,200 bytes.
+- File creation to final write: 2026-07-11 05:54:18 to 06:17:46.
+- Conservative wall-time rate including the interruption: approximately 36.36 MiB/s.
+- No disk disconnect or write error was reported.
+
+External-drive full-file read / SHA256:
+- Time: 1,465.79 seconds.
+- Effective rate: approximately 34.93 MiB/s.
+- SHA256: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+
+Unbuffered readback copy from external SSD to internal NVMe:
+- Time: 1,217.34 seconds.
+- Average rate: 42.06 MiB/s.
+- Robocopy: 0 failed, 0 mismatch.
+
+Readback SHA256:
+- SHA256: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+- Match: TRUE
+
+Final health:
+- External physical disk: Healthy / Online.
+- NTFS volume: Healthy.
+- C-drive temporary 50GiB readback file: deleted after successful hash match.
+
+Scope note:
+- The measured throughput is the complete attached path (EQi12 port + cable + USB enclosure/SSD).
+- Do not attribute the result to the EQi12 port alone without repeating with a known-fast cable/enclosure and recording negotiated USB speed.

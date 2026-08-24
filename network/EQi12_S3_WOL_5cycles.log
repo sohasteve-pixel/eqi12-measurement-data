@@ -1,0 +1,17 @@
+﻿EQi12 S3/WOL five-cycle test started: 2026-07-12T06:08:03.8764178-07:00
+Cycle 1 PRE_SLEEP 2026-07-12T06:08:03.9043179-07:00
+Cycle 1 RESUMED 2026-07-12T06:09:11.8674599-07:00 SleepCall=True
+Cycle 1 RECOVERY Ethernet=Up IPv4=192.168.5.22 NetworkSeconds=3.57 Jellyfin=eqi12-jellyfin DockerSeconds=3.71
+Cycle 2 PRE_SLEEP 2026-07-12T06:09:40.5907291-07:00
+Cycle 2 RESUMED 2026-07-12T06:10:11.8711382-07:00 SleepCall=True
+Cycle 2 RECOVERY Ethernet=Up IPv4=192.168.5.22 NetworkSeconds=3.56 Jellyfin=eqi12-jellyfin DockerSeconds=3.63
+Cycle 3 PRE_SLEEP 2026-07-12T06:10:40.5095735-07:00
+Cycle 3 RESUMED 2026-07-12T06:11:11.8695254-07:00 SleepCall=True
+Cycle 3 RECOVERY Ethernet=Up IPv4=192.168.5.22 NetworkSeconds=3.56 Jellyfin=eqi12-jellyfin DockerSeconds=3.69
+Cycle 4 PRE_SLEEP 2026-07-12T06:11:40.5782592-07:00
+Cycle 4 RESUMED 2026-07-12T06:12:11.8681663-07:00 SleepCall=True
+Cycle 4 RECOVERY Ethernet=Up IPv4=192.168.5.22 NetworkSeconds=3.61 Jellyfin=eqi12-jellyfin DockerSeconds=3.67
+Cycle 5 PRE_SLEEP 2026-07-12T06:12:40.5510427-07:00
+Cycle 5 RESUMED 2026-07-12T06:17:33.9103735-07:00 SleepCall=True
+Cycle 5 RECOVERY Ethernet=Up IPv4=192.168.5.22 NetworkSeconds=3.15 Jellyfin=eqi12-jellyfin DockerSeconds=3.32
+TEST_COMPLETE 2026-07-12T06:17:37.2282348-07:00

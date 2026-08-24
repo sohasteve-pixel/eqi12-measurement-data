@@ -1,0 +1,6 @@
+﻿EQi12 G3 AC restore 3-cycle test initialized: 2026-07-12T21:47:56.9201079-07:00
+Cycle 1 COMPLETE AutoPowerOn=PASS Boot=2026-07-12T21:55:30.3467999-07:00 Check=2026-07-12T21:55:30.3467999-07:00 BootToCheckSeconds=0 Network=PASS IPv4= JellyfinHTTP=200 JellyfinContainerStarted= BootToContainerStartSeconds=NA Evidence=PhoneVideo
+Cycle 1 CORRECTED AutoPowerOn=PASS Boot=2026-07-12T21:52:03.5000000-07:00 Check=2026-07-12T21:56:04.5493214-07:00 BootToCheckSeconds=241.05 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 JellyfinContainerStarted=7/12/2026 9:52:44 PM BootToContainerStartSeconds=40.97 Evidence=PhoneVideo
+Cycle 2 COMPLETE AutoPowerOn=PASS Boot=2026-07-12T21:58:11.5000000-07:00 Check=2026-07-12T22:00:56.7868143-07:00 BootToCheckSeconds=165.29 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 JellyfinContainerStarted=7/12/2026 9:58:52 PM BootToContainerStartSeconds=40.97 Evidence=PhoneVideo
+Cycle 3 COMPLETE AutoPowerOn=PASS Boot=2026-07-12T22:02:20.5000000-07:00 Check=2026-07-12T22:05:27.1727442-07:00 BootToCheckSeconds=186.67 Network=PASS Interface=Ethernet MAC=78-55-36-08-FF-8E IPv4=192.168.5.22 JellyfinHTTP=200 JellyfinContainerStarted=7/12/2026 10:03:00 PM BootToContainerStartSeconds=40.36 Evidence=PhoneVideo
+TEST_COMPLETE 2026-07-12T22:05:32.5367591-07:00 Result=3/3 PASS

@@ -1,0 +1,106 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260713042430
+Username: DESKTOP-ASAP43P\yiluo
+RunAs User: DESKTOP-ASAP43P\yiluo
+Configuration Name: 
+Machine: DESKTOP-ASAP43P (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\EQi12_USB_Evidence\EQi12_USB_SlowPort_3Rounds_Visible.ps1
+Process ID: 11692
+PSVersion: 5.1.26100.8655
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8655
+BuildVersion: 10.0.26100.8655
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+EQi12 rear-left USB-A slow-port retest - RAW RUN
+Device : EAGET SSD 1TB, drive D:, USB bus
+Method : 3 rounds x 4GiB write + full readback + SHA256
+------------------------------------------------------------
+Generating deterministic 4GiB source on internal SSD...
+Source SHA256: 25030DF25FBD998E590959F8A44832BDCE833E3C9E3746DAF5010435C3DACB12
+------------------------------------------------------------
+ROUND 1 WRITE START
+Round 1 WRITE: 512/4096 MiB, 39.48 MiB/s
+Round 1 WRITE: 1024/4096 MiB, 39.31 MiB/s
+Round 1 WRITE: 1536/4096 MiB, 39.28 MiB/s
+Round 1 WRITE: 2048/4096 MiB, 39.29 MiB/s
+Round 1 WRITE: 2560/4096 MiB, 39.27 MiB/s
+Round 1 WRITE: 3072/4096 MiB, 39.30 MiB/s
+Round 1 WRITE: 3584/4096 MiB, 39.33 MiB/s
+Round 1 WRITE: 4096/4096 MiB, 39.39 MiB/s
+ROUND 1 WRITE DONE: 39.38 MiB/s, 104.00 s
+ROUND 1 READBACK START
+Round 1 READ: 512/4096 MiB, 40.47 MiB/s
+Round 1 READ: 1024/4096 MiB, 41.03 MiB/s
+Round 1 READ: 1536/4096 MiB, 41.13 MiB/s
+Round 1 READ: 2048/4096 MiB, 41.16 MiB/s
+Round 1 READ: 2560/4096 MiB, 44.57 MiB/s
+Round 1 READ: 3072/4096 MiB, 43.91 MiB/s
+Round 1 READ: 3584/4096 MiB, 43.38 MiB/s
+Round 1 READ: 4096/4096 MiB, 43.12 MiB/s
+ROUND 1 READ DONE: 43.12 MiB/s, 95.00 s, SHA256 match=True
+------------------------------------------------------------
+ROUND 2 WRITE START
+Round 2 WRITE: 512/4096 MiB, 39.42 MiB/s
+Round 2 WRITE: 1024/4096 MiB, 39.20 MiB/s
+Round 2 WRITE: 1536/4096 MiB, 39.26 MiB/s
+Round 2 WRITE: 2048/4096 MiB, 39.39 MiB/s
+Round 2 WRITE: 2560/4096 MiB, 39.58 MiB/s
+Round 2 WRITE: 3072/4096 MiB, 39.43 MiB/s
+Round 2 WRITE: 3584/4096 MiB, 39.36 MiB/s
+Round 2 WRITE: 4096/4096 MiB, 39.36 MiB/s
+ROUND 2 WRITE DONE: 39.35 MiB/s, 104.08 s
+ROUND 2 READBACK START
+Round 2 READ: 512/4096 MiB, 40.36 MiB/s
+Round 2 READ: 1024/4096 MiB, 40.62 MiB/s
+Round 2 READ: 1536/4096 MiB, 40.97 MiB/s
+Round 2 READ: 2048/4096 MiB, 41.04 MiB/s
+Round 2 READ: 2560/4096 MiB, 41.02 MiB/s
+Round 2 READ: 3072/4096 MiB, 40.98 MiB/s
+Round 2 READ: 3584/4096 MiB, 40.95 MiB/s
+Round 2 READ: 4096/4096 MiB, 40.95 MiB/s
+ROUND 2 READ DONE: 40.95 MiB/s, 100.03 s, SHA256 match=True
+------------------------------------------------------------
+ROUND 3 WRITE START
+Round 3 WRITE: 512/4096 MiB, 40.34 MiB/s
+Round 3 WRITE: 1024/4096 MiB, 39.91 MiB/s
+Round 3 WRITE: 1536/4096 MiB, 39.81 MiB/s
+Round 3 WRITE: 2048/4096 MiB, 39.72 MiB/s
+Round 3 WRITE: 2560/4096 MiB, 39.70 MiB/s
+Round 3 WRITE: 3072/4096 MiB, 39.73 MiB/s
+Round 3 WRITE: 3584/4096 MiB, 39.72 MiB/s
+Round 3 WRITE: 4096/4096 MiB, 39.75 MiB/s
+ROUND 3 WRITE DONE: 39.75 MiB/s, 103.04 s
+ROUND 3 READBACK START
+Round 3 READ: 512/4096 MiB, 41.32 MiB/s
+Round 3 READ: 1024/4096 MiB, 40.64 MiB/s
+Round 3 READ: 1536/4096 MiB, 40.89 MiB/s
+Round 3 READ: 2048/4096 MiB, 40.91 MiB/s
+Round 3 READ: 2560/4096 MiB, 40.90 MiB/s
+Round 3 READ: 3072/4096 MiB, 40.93 MiB/s
+Round 3 READ: 3584/4096 MiB, 41.01 MiB/s
+Round 3 READ: 4096/4096 MiB, 41.04 MiB/s
+ROUND 3 READ DONE: 41.04 MiB/s, 99.80 s, SHA256 match=True
+EQi12 USB-A Slow Port Retest - RAW RESULT
+Device: EAGET SSD 1TB / D: / USB
+Port  : rear-left USB-A slow-port candidate
+Test  : 3 rounds x 4GiB write + full readback + SHA256
+------------------------------------------------------------
+
+Round WriteSeconds WriteMiBps ReadSeconds ReadMiBps HashMatch
+----- ------------ ---------- ----------- --------- ---------
+    1          104      39.38          95     43.12      True
+    2       104.08      39.35      100.03     40.95      True
+    3       103.04      39.75        99.8     41.04      True
+
+
+Source SHA256: 25030DF25FBD998E590959F8A44832BDCE833E3C9E3746DAF5010435C3DACB12
+TEST COMPLETE: 3/3 HASH MATCH
+**********************
+Windows PowerShell transcript end
+End time: 20260713043524
+**********************

@@ -1,0 +1,22 @@
+﻿EQi12 Docker HTTP Corrected Test
+Date: 
+2026-07-13T06:55:47.7620546-07:00
+
+NGINX corrected isolated:
+
+Concurrency Success Errors      RPS AvgMs  P95Ms
+----------- ------- ------      --- -----  -----
+         10   92338      0  6155.81 1.619  2.908
+         50  155639      0 10374.33 4.816  9.078
+        100  159515      0 10629.74 9.403 17.224
+
+
+
+Mixed corrected:
+HTTP success=468828 errors=0
+HTTP RPS avg=7805.1 min=6240.67 max=10420.37
+HTTP p95 avg=14.313 ms host CPU avg=63.42%
+Container status:
+eqi12-docker-test-database-1|Up 8 hours (healthy)
+eqi12-docker-test-web-1|Up 8 hours (healthy)
+eqi12-docker-test-cache-1|Up 8 hours (healthy)

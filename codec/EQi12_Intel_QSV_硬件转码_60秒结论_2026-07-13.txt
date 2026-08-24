@@ -1,0 +1,30 @@
+EQi12 Intel QSV 硬件转码能力测试
+日期：2026-07-13
+
+输入：H.264，3840×2160，60fps；合法自生成测试片源，6段无损拼接为60秒。
+处理：Intel QSV硬件解码 + QSV缩放至1920×1080 + H.264 QSV硬件编码。
+FFmpeg映射：h264 (h264_qsv) -> h264 (h264_qsv)
+硬件设备：Intel(R) UHD Graphics，PCI ID 8086:46b3
+
+结果：
+- 输出时长：60.000秒
+- 输出帧数：3600帧
+- 输出规格：H.264 High，1920×1080，60fps，yuv420p
+- 输出大小：53,576,699 bytes
+- 输出SHA256：C93A80F91644020BA9881A483CE9A891744BA590B300298C266EE4BD8015B405
+- 处理速度：约1.01×实时
+- CPU平均：22.52%，峰值45.60%
+- Windows GPU Video Decode平均：55.54%，峰值61.16%
+- Windows性能计数器未单独报告Video Encode占用；硬件编码由FFmpeg的h264_qsv流映射和输出编码器日志确认。
+
+判定：
+Intel QSV 4K60硬件解码、缩放和1080p60 H.264硬件编码能力通过。
+
+边界：
+本结果证明Windows原生Intel QSV能力，不等同于“Jellyfin硬件转码已通过”。
+Jellyfin正式结论仍需原生Windows Jellyfin或Linux正确映射Intel GPU后，在Dashboard中显示硬件转码，并同时保留GPU负载证据。
+
+原始证据：
+- EQi12_QSV_4K60_to_1080p60_60s_ffmpeg.log
+- EQi12_QSV_4K60_to_1080p60_60s_GPU_CPU.csv
+- EQi12_QSV_4K60_to_1080p60_60s_Result.txt

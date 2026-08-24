@@ -1,0 +1,18 @@
+﻿Beelink EQi12 - USB SSD rear left 3 connector 50GiB test
+Captured: 2026-07-11 08:16:28 -07:00
+Device: EAGET SSD 1TB
+Volume: D: EQi12_TEST NTFS
+Physical connector: rear panel, third port from the left (后面左三)
+Bytes: 53687091200
+WriteSeconds: 170.3
+WriteMiBps: 300.64
+DHashSeconds: 214.58
+ReadbackSeconds: 118.5
+ReadbackMiBps: 432.06
+RobocopyExitCode: 1
+CHashSeconds: 80.11
+SHA256_D: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+SHA256_C: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+HashMatch: True
+DiskHealth: Healthy
+VolumeHealth: Healthy

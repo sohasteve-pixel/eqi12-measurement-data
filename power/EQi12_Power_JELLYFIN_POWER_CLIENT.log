@@ -1,0 +1,30 @@
+Start=2026-07-13 21:24:16
+Item=PLAY_THIS_5MIN_4K60_QSV_TEST
+ItemId=fee6bd0e6e7a9b1308ef292056c5b66a
+Target=1920x1080 H264 approximately 10Mbps
+VideoBitrate=9987045
+Mode=real-time-throttled-client
+HTTP=200 ContentType=video/mp4
+Elapsed=0.8s Bytes=1048576
+Elapsed=10.1s Bytes=12582912
+Elapsed=10.9s Bytes=13631488
+Elapsed=20.1s Bytes=25165824
+Elapsed=21.0s Bytes=26214400
+Elapsed=30.2s Bytes=37748736
+Elapsed=40.3s Bytes=50331648
+Elapsed=50.3s Bytes=62914560
+Elapsed=60.4s Bytes=75497472
+Elapsed=70.5s Bytes=88080384
+Elapsed=80.5s Bytes=100663296
+Elapsed=90.6s Bytes=113246208
+Elapsed=100.7s Bytes=125829120
+Elapsed=110.7s Bytes=138412032
+Elapsed=120.8s Bytes=150994944
+Elapsed=130.0s Bytes=162529280
+Elapsed=130.9s Bytes=163577856
+Elapsed=140.1s Bytes=175112192
+Elapsed=140.9s Bytes=176160768
+Elapsed=150.2s Bytes=187695104
+Elapsed=151.0s Bytes=188743680
+Elapsed=160.2s Bytes=200278016
+Elapsed=170.3s Bytes=212860928

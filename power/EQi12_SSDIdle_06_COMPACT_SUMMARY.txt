@@ -1,0 +1,24 @@
+EQi12 LOW-OVERHEAD BACKGROUND RESOURCE SAMPLE
+
+Start: 2026-07-13 09:52:25
+End:   2026-07-13 09:57:28
+Method: one Windows performance-counter request, 60 samples x 5 seconds.
+
+HOST RESULT
+CPU average / minimum / maximum: 16.87 / 13.39 / 23.05 percent
+Available RAM avg / min / max:   5869 / 5756 / 5946 MB
+
+DOCKER BEFORE -> AFTER
+Jellyfin:   145.5 -> 146.2 MiB; 0.02 -> 0.13 percent CPU
+PostgreSQL: 39.51 -> 39.28 MiB; 2.58 -> 0.00 percent CPU
+nginx:      8.633 -> 8.406 MiB; 0.00 -> 0.00 percent CPU
+Redis:      127.1 -> 126.9 MiB; 1.92 -> 0.54 percent CPU
+
+FINAL STATE
+All four containers healthy.
+
+BOUNDARY
+Windows and other resident desktop applications remained open. This is an
+unattended background-state sample, not a clean-boot OS idle measurement.
+The earlier per-sample Docker-polling run is retained but not used for the
+headline because the observer added measurable CPU overhead.

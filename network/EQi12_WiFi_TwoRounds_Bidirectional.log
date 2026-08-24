@@ -1,0 +1,123 @@
+﻿EQi12 WiFi two-round bidirectional test initialized: 2026-07-12T23:21:58.2742723-07:00
+=== ROUND 1 NEAR ===
+Remote=192.168.5.8
+EQi12ToPeer Bytes=4294967296 Seconds=37.26 Mbps=879.35
+PeerToEQi12 Bytes=4294967296 Seconds=36.23 Mbps=904.32
+--- WLAN BEFORE ---
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi 2
+    Description            : Intel(R) Wi-Fi 6 AX200 160MHz
+    GUID                   : 323239af-54ac-4f7c-80a1-fc09b00b784e
+    Physical address       : d0:65:78:e9:2a:05
+    Interface type         : Primary
+    State                  : connected
+    SSID                   : 307
+    AP BSSID               : 14:20:04:1c:08:45
+    Band                   : 5 GHz
+    Channel                : 44
+    Connected Akm-cipher   : [ akm = 00-0f-ac:02, cipher =  00-0f-ac:04 ]
+    Network type           : Infrastructure
+    Radio type             : 802.11ax
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Profile
+    Receive rate (Mbps)    : 2402
+    Transmit rate (Mbps)   : 2402
+    Signal                 : 99% 
+    Rssi                   : -22
+    Profile                : 307 
+    QoS MSCS Configured         : 0
+    QoS Map Configured          : 0
+    QoS Map Allowed by Policy   : 0
+--- WLAN AFTER ---
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi 2
+    Description            : Intel(R) Wi-Fi 6 AX200 160MHz
+    GUID                   : 323239af-54ac-4f7c-80a1-fc09b00b784e
+    Physical address       : d0:65:78:e9:2a:05
+    Interface type         : Primary
+    State                  : connected
+    SSID                   : 307
+    AP BSSID               : 14:20:04:1c:08:45
+    Band                   : 5 GHz
+    Channel                : 44
+    Connected Akm-cipher   : [ akm = 00-0f-ac:02, cipher =  00-0f-ac:04 ]
+    Network type           : Infrastructure
+    Radio type             : 802.11ax
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Profile
+    Receive rate (Mbps)    : 2402
+    Transmit rate (Mbps)   : 2402
+    Signal                 : 99% 
+    Rssi                   : -23
+    Profile                : 307 
+    QoS MSCS Configured         : 0
+    QoS Map Configured          : 0
+    QoS Map Allowed by Policy   : 0
+ROUND 1 INVALIDATED: Ethernet cable timing uncertain; excluded from WiFi conclusion.
+=== ROUND 2 VALID PURE WIFI ===
+Name       Status       LinkSpeed
+----       ------       ---------
+Ethernet 2 Disconnected 1 Gbps   
+Ethernet   Disconnected 1 Gbps
+Remote=192.168.5.8
+EQi12ToPeer Bytes=4294967296 Seconds=52.99 Mbps=618.37
+PeerToEQi12 Bytes=4294967296 Seconds=37.66 Mbps=870.18
+--- WLAN BEFORE ---
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi 2
+    Description            : Intel(R) Wi-Fi 6 AX200 160MHz
+    GUID                   : 323239af-54ac-4f7c-80a1-fc09b00b784e
+    Physical address       : d0:65:78:e9:2a:05
+    Interface type         : Primary
+    State                  : connected
+    SSID                   : 307
+    AP BSSID               : 14:20:04:1c:08:45
+    Band                   : 5 GHz
+    Channel                : 44
+    Connected Akm-cipher   : [ akm = 00-0f-ac:02, cipher =  00-0f-ac:04 ]
+    Network type           : Infrastructure
+    Radio type             : 802.11ax
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Profile
+    Receive rate (Mbps)    : 2402
+    Transmit rate (Mbps)   : 2402
+    Signal                 : 99% 
+    Rssi                   : -23
+    Profile                : 307 
+    QoS MSCS Configured         : 0
+    QoS Map Configured          : 0
+    QoS Map Allowed by Policy   : 0
+--- WLAN AFTER ---
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi 2
+    Description            : Intel(R) Wi-Fi 6 AX200 160MHz
+    GUID                   : 323239af-54ac-4f7c-80a1-fc09b00b784e
+    Physical address       : d0:65:78:e9:2a:05
+    Interface type         : Primary
+    State                  : connected
+    SSID                   : 307
+    AP BSSID               : 14:20:04:1c:08:45
+    Band                   : 5 GHz
+    Channel                : 44
+    Connected Akm-cipher   : [ akm = 00-0f-ac:02, cipher =  00-0f-ac:04 ]
+    Network type           : Infrastructure
+    Radio type             : 802.11ax
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Profile
+    Receive rate (Mbps)    : 2402
+    Transmit rate (Mbps)   : 2402
+    Signal                 : 96% 
+    Rssi                   : -23
+    Profile                : 307 
+    QoS MSCS Configured         : 0
+    QoS Map Configured          : 0
+    QoS Map Allowed by Policy   : 0
+TEST_COMPLETE 2026-07-12T23:33:01.0986303-07:00 PURE_WIFI=PASS

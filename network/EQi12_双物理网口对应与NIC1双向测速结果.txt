@@ -1,0 +1,12 @@
+EQi12 双物理RJ45网口对应关系与第二轮双向测速
+日期：2026-07-12
+
+物理网口对应：
+- 当前插线口：Windows“Ethernet”，Realtek PCIe GbE Family Controller，MAC尾号8E，DHCP 192.168.5.22，1Gbps。
+- 先前测试口：Windows“Ethernet 2”，Realtek PCIe GbE Family Controller #2，MAC尾号8F。
+
+本轮 Ethernet / Realtek #1 / MAC尾号8E：
+- EQi12 -> 对端：4,294,967,296 bytes（4GiB），本机计时36.79秒，890.75Mbps；对端计时36.81秒，890.17Mbps。
+- 对端 -> EQi12：4,294,967,296 bytes（4GiB），本机计时36.31秒，902.57Mbps；对端计时36.28秒，903.12Mbps。
+
+结论：第二个物理千兆口双向4GiB传输完成，两个方向均接近千兆有效吞吐；两个物理RJ45口与Windows适配器身份已绑定。

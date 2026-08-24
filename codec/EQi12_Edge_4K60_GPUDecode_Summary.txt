@@ -1,0 +1,6 @@
+﻿Beelink EQi12 - Edge local 4K60 GPU Decode counter summary
+Samples: 35
+AverageVideoDecodePercent: 38.58
+MaximumVideoDecodePercent: 42.91
+Counter: Windows GPU Engine engtype_VideoDecode utilization
+Source: local H.264 3840x2160 60fps 10-second loop

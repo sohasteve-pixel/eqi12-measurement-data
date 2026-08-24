@@ -1,0 +1,18 @@
+﻿Beelink EQi12 - USB SSD Port 2 50GiB sustained comparison
+Captured: 2026-07-11 07:54:45 -07:00
+Device: EAGET SSD 1TB
+Volume: D: EQi12_TEST NTFS
+Tested connector label: rear panel, second port from the left (后面左二)
+Bytes: 53687091200
+WriteSeconds: 169.58
+WriteMiBps: 301.91
+DHashSeconds: 214.65
+ReadbackSeconds: 118.57
+ReadbackMiBps: 431.8
+RobocopyExitCode: 1
+CHashSeconds: 80.1
+SHA256_D: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+SHA256_C: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+HashMatch: True
+DiskHealth: Healthy
+VolumeHealth: Healthy

@@ -1,0 +1,12 @@
+﻿Beelink EQi12 wired network test - direction 1
+Captured: 2026-07-11 09:02:05 -07:00
+Source: 192.168.5.9 (EQi12 under test)
+Destination: 192.168.5.8:5201
+Interface: Ethernet 2 / Realtek PCIe GbE #2
+Negotiated link: 1 Gbps
+BytesSent: 4294967296
+GiB: 4
+Seconds: 37.66
+SenderMbpsBinary: 870.08
+SenderMiBps: 108.76
+Note: MbpsBinary uses bytes*8/1MiB; multiply by 1.048576 for decimal Mbit/s.

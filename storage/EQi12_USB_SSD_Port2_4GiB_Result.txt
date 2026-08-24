@@ -1,0 +1,17 @@
+﻿Beelink EQi12 - USB SSD second tested connector 4GiB comparison
+Captured: 2026-07-11 07:44:11 -07:00
+Device: EAGET SSD 1TB
+Volume: D: EQi12_TEST NTFS
+Tested connector label: rear panel, second port from the left (后面左二)
+Bytes: 4294967296
+WriteSeconds: 13.88
+WriteMiBps: 295.03
+DHashSeconds: 4.07
+ReadbackSeconds: 2.86
+ReadbackMiBps: 1431.96
+CHashSeconds: 5.4
+SHA256_D: 41140A09FAD6ACB0853B39CB3F1E2164BD68CB9E3FEE79CCE39C7D68C553F838
+SHA256_C: 41140A09FAD6ACB0853B39CB3F1E2164BD68CB9E3FEE79CCE39C7D68C553F838
+HashMatch: True
+DiskHealth: Healthy
+VolumeHealth: Healthy

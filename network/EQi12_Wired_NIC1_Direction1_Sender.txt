@@ -1,0 +1,13 @@
+﻿
+
+Direction : EQi12_NIC1_to_Peer
+Remote    : 192.168.5.8
+Bytes     : 4294967296
+GiB       : 4
+Seconds   : 36.79
+Mbps      : 890.75
+Completed : 2026-07-12T04:55:26.9236094-07:00
+
+
+
+

@@ -1,0 +1,20 @@
+EQi12 Docker 官方自动启动：单次重启核对结果
+核对时间：2026-07-12
+
+结论：通过（1/1）
+
+证据：
+- 系统启动：2026-07-12 20:36:22.500 -07:00
+- 登录后核对脚本启动：2026-07-12 20:43:09.453 -07:00
+- 有线网络恢复：启动后 414.13 秒，Ethernet=Up，IPv4=192.168.5.22，Gateway=True
+- Jellyfin 健康恢复：启动后 414.25 秒
+- Docker Desktop 截图显示 Engine running，eqi12-jellyfin 与 eqi12-docker-test 均处于运行状态
+
+说明：
+- 本轮证明“登录后 Docker Desktop 官方自动启动并恢复容器/Jellyfin”有效。
+- 414 秒包含开机到用户登录/核对脚本启动的等待，不能直接视作 Docker 自身启动耗时。
+- 截图未包含 Codex；背景证据页中文存在编码乱码，因此以原始日志数值为主，Docker Desktop 前景状态为辅。
+
+原始证据：
+- EQi12_DockerOfficialAutostart_1reboot.log
+- EQi12_DockerOfficialAutostart_Verification.png

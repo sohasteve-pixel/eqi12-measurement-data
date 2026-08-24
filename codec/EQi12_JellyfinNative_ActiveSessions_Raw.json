@@ -1,0 +1,360 @@
+﻿[
+    {
+        "PlayState":  {
+                          "CanSeek":  false,
+                          "IsPaused":  false,
+                          "IsMuted":  false,
+                          "RepeatMode":  "RepeatNone",
+                          "PlaybackOrder":  "Default"
+                      },
+        "AdditionalUsers":  [
+
+                            ],
+        "Capabilities":  {
+                             "PlayableMediaTypes":  [
+                                                        "Audio",
+                                                        "Video"
+                                                    ],
+                             "SupportedCommands":  [
+                                                       "MoveUp",
+                                                       "MoveDown",
+                                                       "MoveLeft",
+                                                       "MoveRight",
+                                                       "PageUp",
+                                                       "PageDown",
+                                                       "PreviousLetter",
+                                                       "NextLetter",
+                                                       "ToggleOsd",
+                                                       "ToggleContextMenu",
+                                                       "Select",
+                                                       "Back",
+                                                       "SendKey",
+                                                       "SendString",
+                                                       "GoHome",
+                                                       "GoToSettings",
+                                                       "VolumeUp",
+                                                       "VolumeDown",
+                                                       "Mute",
+                                                       "Unmute",
+                                                       "ToggleMute",
+                                                       "SetVolume",
+                                                       "SetAudioStreamIndex",
+                                                       "SetSubtitleStreamIndex",
+                                                       "DisplayContent",
+                                                       "GoToSearch",
+                                                       "DisplayMessage",
+                                                       "SetRepeatMode",
+                                                       "SetShuffleQueue",
+                                                       "ChannelUp",
+                                                       "ChannelDown",
+                                                       "PlayMediaSource",
+                                                       "PlayTrailers"
+                                                   ],
+                             "SupportsMediaControl":  true,
+                             "SupportsPersistentIdentifier":  false
+                         },
+        "RemoteEndPoint":  "127.0.0.1",
+        "PlayableMediaTypes":  [
+                                   "Audio",
+                                   "Video"
+                               ],
+        "Id":  "8e32873adeb91e037fac5cc33f9c3be0",
+        "UserId":  "ecc9d4ddf0394ed083b0006898ff923a",
+        "UserName":  "eqi12review",
+        "Client":  "Jellyfin Web",
+        "LastActivityDate":  "2026-07-13T11:56:17.7096016Z",
+        "LastPlaybackCheckIn":  "2026-07-13T11:56:16.136152Z",
+        "DeviceName":  "Edge Chromium",
+        "DeviceId":  "TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzE1MC4wLjAuMCBTYWZhcmkvNTM3LjM2IEVkZy8xNTAuMC4wLjB8MTc4Mzk0MzM1MTE3Ng11",
+        "ApplicationVersion":  "10.11.11",
+        "IsActive":  true,
+        "SupportsMediaControl":  true,
+        "SupportsRemoteControl":  true,
+        "NowPlayingQueue":  [
+                                {
+                                    "Id":  "b21f2c0cecaefbec5cee7c1250dd6509",
+                                    "PlaylistItemId":  "playlistItem1"
+                                }
+                            ],
+        "NowPlayingQueueFullItems":  [
+                                         {
+                                             "Name":  "EQi12_4K60_QSV_Test",
+                                             "ServerId":  "0a47d3dc3d1b430ba71655411d20e358",
+                                             "Id":  "b21f2c0cecaefbec5cee7c1250dd6509",
+                                             "Etag":  "d0c4cc5a9cea0e331c5a73d1e00531f1",
+                                             "DateCreated":  "2026-07-13T11:47:10.7973567Z",
+                                             "CanDelete":  true,
+                                             "CanDownload":  true,
+                                             "Container":  "mov,mp4,m4a,3gp,3g2,mj2",
+                                             "SortName":  "eqi0000000012_0000000004k0000000060_qsv_test",
+                                             "ExternalUrls":  [
+
+                                                              ],
+                                             "MediaSources":  [
+                                                                  {
+                                                                      "Protocol":  "File",
+                                                                      "Id":  "b21f2c0cecaefbec5cee7c1250dd6509",
+                                                                      "Path":  "C:\\EQi12_JellyfinNative\\media\\EQi12_4K60_QSV_Test.mp4",
+                                                                      "Type":  "Default",
+                                                                      "Container":  "mp4",
+                                                                      "Size":  135804516,
+                                                                      "Name":  "EQi12_4K60_QSV_Test",
+                                                                      "IsRemote":  false,
+                                                                      "ETag":  "be3dff766237ec22f85c88861e12612c",
+                                                                      "RunTimeTicks":  100000000,
+                                                                      "ReadAtNativeFramerate":  false,
+                                                                      "IgnoreDts":  false,
+                                                                      "IgnoreIndex":  false,
+                                                                      "GenPtsInput":  false,
+                                                                      "SupportsTranscoding":  true,
+                                                                      "SupportsDirectStream":  true,
+                                                                      "SupportsDirectPlay":  true,
+                                                                      "IsInfiniteStream":  false,
+                                                                      "UseMostCompatibleTranscodingProfile":  false,
+                                                                      "RequiresOpening":  false,
+                                                                      "RequiresClosing":  false,
+                                                                      "RequiresLooping":  false,
+                                                                      "SupportsProbing":  true,
+                                                                      "VideoType":  "VideoFile",
+                                                                      "MediaStreams":  [
+                                                                                           {
+                                                                                               "Codec":  "h264",
+                                                                                               "CodecTag":  "avc1",
+                                                                                               "Language":  "und",
+                                                                                               "TimeBase":  "1/15360",
+                                                                                               "VideoRange":  "SDR",
+                                                                                               "VideoRangeType":  "SDR",
+                                                                                               "AudioSpatialFormat":  "None",
+                                                                                               "DisplayTitle":  "4K H264 SDR",
+                                                                                               "NalLengthSize":  "4",
+                                                                                               "IsInterlaced":  false,
+                                                                                               "IsAVC":  true,
+                                                                                               "BitRate":  108640528,
+                                                                                               "BitDepth":  8,
+                                                                                               "RefFrames":  1,
+                                                                                               "IsDefault":  true,
+                                                                                               "IsForced":  false,
+                                                                                               "IsHearingImpaired":  false,
+                                                                                               "Height":  2160,
+                                                                                               "Width":  3840,
+                                                                                               "AverageFrameRate":  60,
+                                                                                               "RealFrameRate":  60,
+                                                                                               "ReferenceFrameRate":  60,
+                                                                                               "Profile":  "Constrained Baseline",
+                                                                                               "Type":  "Video",
+                                                                                               "AspectRatio":  "16:9",
+                                                                                               "Index":  0,
+                                                                                               "IsExternal":  false,
+                                                                                               "IsTextSubtitleStream":  false,
+                                                                                               "SupportsExternalStream":  false,
+                                                                                               "PixelFormat":  "yuv420p",
+                                                                                               "Level":  52,
+                                                                                               "IsAnamorphic":  false
+                                                                                           }
+                                                                                       ],
+                                                                      "MediaAttachments":  [
+
+                                                                                           ],
+                                                                      "Formats":  [
+
+                                                                                  ],
+                                                                      "Bitrate":  108643612,
+                                                                      "RequiredHttpHeaders":  {
+
+                                                                                              },
+                                                                      "TranscodingSubProtocol":  "http",
+                                                                      "HasSegments":  false
+                                                                  }
+                                                              ],
+                                             "ProductionLocations":  [
+
+                                                                     ],
+                                             "Path":  "C:\\EQi12_JellyfinNative\\media\\EQi12_4K60_QSV_Test.mp4",
+                                             "EnableMediaSourceDisplay":  true,
+                                             "ChannelId":  null,
+                                             "Taglines":  [
+
+                                                          ],
+                                             "Genres":  [
+
+                                                        ],
+                                             "RunTimeTicks":  100000000,
+                                             "RemoteTrailers":  [
+
+                                                                ],
+                                             "ProviderIds":  {
+
+                                                             },
+                                             "IsHD":  true,
+                                             "IsFolder":  false,
+                                             "ParentId":  "88a878f136f0fec497922dae9fc3d999",
+                                             "Type":  "Movie",
+                                             "People":  [
+
+                                                        ],
+                                             "Studios":  [
+
+                                                         ],
+                                             "GenreItems":  [
+
+                                                            ],
+                                             "LocalTrailerCount":  0,
+                                             "SpecialFeatureCount":  0,
+                                             "DisplayPreferencesId":  "dbf7709c41faaa746463d67978eb863d",
+                                             "Tags":  [
+
+                                                      ],
+                                             "PrimaryImageAspectRatio":  1.7777777777777777,
+                                             "MediaStreams":  [
+                                                                  {
+                                                                      "Codec":  "h264",
+                                                                      "CodecTag":  "avc1",
+                                                                      "Language":  "und",
+                                                                      "TimeBase":  "1/15360",
+                                                                      "VideoRange":  "SDR",
+                                                                      "VideoRangeType":  "SDR",
+                                                                      "AudioSpatialFormat":  "None",
+                                                                      "DisplayTitle":  "4K H264 SDR",
+                                                                      "NalLengthSize":  "4",
+                                                                      "IsInterlaced":  false,
+                                                                      "IsAVC":  true,
+                                                                      "BitRate":  108640528,
+                                                                      "BitDepth":  8,
+                                                                      "RefFrames":  1,
+                                                                      "IsDefault":  true,
+                                                                      "IsForced":  false,
+                                                                      "IsHearingImpaired":  false,
+                                                                      "Height":  2160,
+                                                                      "Width":  3840,
+                                                                      "AverageFrameRate":  60,
+                                                                      "RealFrameRate":  60,
+                                                                      "ReferenceFrameRate":  60,
+                                                                      "Profile":  "Constrained Baseline",
+                                                                      "Type":  "Video",
+                                                                      "AspectRatio":  "16:9",
+                                                                      "Index":  0,
+                                                                      "IsExternal":  false,
+                                                                      "IsTextSubtitleStream":  false,
+                                                                      "SupportsExternalStream":  false,
+                                                                      "PixelFormat":  "yuv420p",
+                                                                      "Level":  52,
+                                                                      "IsAnamorphic":  false
+                                                                  }
+                                                              ],
+                                             "VideoType":  "VideoFile",
+                                             "ImageTags":  {
+                                                               "Primary":  "164be6cfce17d87b3406ff99eb9069e1"
+                                                           },
+                                             "BackdropImageTags":  [
+
+                                                                   ],
+                                             "ImageBlurHashes":  {
+                                                                     "Primary":  {
+                                                                                     "164be6cfce17d87b3406ff99eb9069e1":  "W~LN=B;ss~z6iQ]~x]s7W;nUaes,jZbHjZfka|jaxus8j?i~jJoK"
+                                                                                 }
+                                                                 },
+                                             "Chapters":  [
+
+                                                          ],
+                                             "Trickplay":  {
+
+                                                           },
+                                             "LocationType":  "FileSystem",
+                                             "MediaType":  "Video",
+                                             "LockedFields":  [
+
+                                                              ],
+                                             "LockData":  false,
+                                             "Width":  3840,
+                                             "Height":  2160
+                                         }
+                                     ],
+        "HasCustomDeviceName":  false,
+        "PlaylistItemId":  "playlistItem1",
+        "ServerId":  "0a47d3dc3d1b430ba71655411d20e358",
+        "SupportedCommands":  [
+                                  "MoveUp",
+                                  "MoveDown",
+                                  "MoveLeft",
+                                  "MoveRight",
+                                  "PageUp",
+                                  "PageDown",
+                                  "PreviousLetter",
+                                  "NextLetter",
+                                  "ToggleOsd",
+                                  "ToggleContextMenu",
+                                  "Select",
+                                  "Back",
+                                  "SendKey",
+                                  "SendString",
+                                  "GoHome",
+                                  "GoToSettings",
+                                  "VolumeUp",
+                                  "VolumeDown",
+                                  "Mute",
+                                  "Unmute",
+                                  "ToggleMute",
+                                  "SetVolume",
+                                  "SetAudioStreamIndex",
+                                  "SetSubtitleStreamIndex",
+                                  "DisplayContent",
+                                  "GoToSearch",
+                                  "DisplayMessage",
+                                  "SetRepeatMode",
+                                  "SetShuffleQueue",
+                                  "ChannelUp",
+                                  "ChannelDown",
+                                  "PlayMediaSource",
+                                  "PlayTrailers"
+                              ]
+    },
+    {
+        "PlayState":  {
+                          "CanSeek":  false,
+                          "IsPaused":  false,
+                          "IsMuted":  false,
+                          "RepeatMode":  "RepeatNone",
+                          "PlaybackOrder":  "Default"
+                      },
+        "AdditionalUsers":  [
+
+                            ],
+        "Capabilities":  {
+                             "PlayableMediaTypes":  [
+
+                                                    ],
+                             "SupportedCommands":  [
+
+                                                   ],
+                             "SupportsMediaControl":  false,
+                             "SupportsPersistentIdentifier":  true
+                         },
+        "RemoteEndPoint":  "127.0.0.1",
+        "PlayableMediaTypes":  [
+
+                               ],
+        "Id":  "f8bdc83af81773c42f63910832d98c15",
+        "UserId":  "ecc9d4ddf0394ed083b0006898ff923a",
+        "UserName":  "eqi12review",
+        "Client":  "EQi12-QSV-Test",
+        "LastActivityDate":  "2026-07-13T11:44:58.8023332Z",
+        "LastPlaybackCheckIn":  "0001-01-01T00:00:00.0000000Z",
+        "DeviceName":  "EQi12",
+        "DeviceId":  "eqi12-qsv-20260713",
+        "ApplicationVersion":  "1.0",
+        "IsActive":  true,
+        "SupportsMediaControl":  false,
+        "SupportsRemoteControl":  false,
+        "NowPlayingQueue":  [
+
+                            ],
+        "NowPlayingQueueFullItems":  [
+
+                                     ],
+        "HasCustomDeviceName":  false,
+        "ServerId":  "0a47d3dc3d1b430ba71655411d20e358",
+        "SupportedCommands":  [
+
+                              ]
+    }
+]

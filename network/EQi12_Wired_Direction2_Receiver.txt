@@ -1,0 +1,10 @@
+﻿Beelink EQi12 wired network test - direction 2 receiver
+Captured: 2026-07-11 09:15:46 -07:00
+Remote: 192.168.5.8:59950
+Local: 192.168.5.9:5201
+BytesReceived: 4294967296
+GiB: 4
+Seconds: 36.51
+ReceiverMbpsBinary: 897.58
+ReceiverMiBps: 112.2
+Note: multiply MbpsBinary by 1.048576 for decimal Mbit/s.

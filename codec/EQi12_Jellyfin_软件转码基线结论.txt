@@ -1,0 +1,38 @@
+Beelink EQi12 - Jellyfin Deployment and Software Transcode Baseline
+Date: 2026-07-11 (America/Los_Angeles)
+
+Service:
+- Official container image: jellyfin/jellyfin:latest
+- Jellyfin Server version: 10.11.11
+- Published address: http://127.0.0.1:18096
+- Health endpoint: HTTP 200 / Healthy
+- Container idle memory: approximately 161 MiB
+
+Test media:
+- Generated locally with Jellyfin FFmpeg; no private or copyrighted user media was used.
+- Codec: H.264
+- Resolution: 3840x2160
+- Frame rate: 60 fps
+- Duration: 10 seconds
+- Frames: 600
+- Source bitrate: approximately 108.64 Mbit/s
+
+Software transcode baseline:
+- Input: H.264 3840x2160 60 fps
+- Output: H.264 1920x1080
+- Encoder: libx264, preset veryfast
+- Completion speed: approximately 2.25x real time
+- Processing rate: approximately 135 fps
+- FFmpeg real time: 4.436 seconds for a 10-second clip
+- FFmpeg maximum resident memory: approximately 742 MiB
+
+Hardware acceleration boundary:
+- WSL Ubuntu exposes /dev/dxg.
+- Docker Desktop containers expose neither /dev/dri nor /dev/dxg on this system.
+- Therefore this Docker Jellyfin deployment cannot currently validate Intel Quick Sync hardware transcoding.
+- The result above is a software-transcode baseline only and must not be described as hardware transcoding.
+- Hardware-transcode validation requires Windows-native Jellyfin or a separately verified GPU-passthrough configuration, plus Dashboard/log evidence.
+
+Setup boundary:
+- Jellyfin startup wizard is not completed.
+- Library creation, client playback, Dashboard session evidence and subtitle-triggered transcoding remain pending.

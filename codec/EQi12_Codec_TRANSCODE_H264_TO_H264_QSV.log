@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\EQi12_JellyfinNative\media\PLAY_THIS_5MIN_4K60_QSV_TEST.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.103
+  Duration: 00:05:00.00, start: 0.000000, bitrate: 108643 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 108640 kb/s, 60 fps, 60 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc61.19.101 libx264
+[D3D11VA @ 0000020de94af140] Using device 8086:46b3 (Intel(R) UHD Graphics).
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (h264_qsv) -> h264 (h264_qsv))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Video: h264, qsv(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 60 fps, 60 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.102 h264_qsv
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   57 fps=0.0 q=28.0 size=N/A time=00:00:00.91 bitrate=N/A speed= 1.8x elapsed=0:00:00.50    
+frame=  134 fps=129 q=21.0 size=N/A time=00:00:02.20 bitrate=N/A speed=2.12x elapsed=0:00:01.03    
+frame=  209 fps=135 q=22.0 size=N/A time=00:00:03.45 bitrate=N/A speed=2.23x elapsed=0:00:01.54    
+frame=  284 fps=138 q=28.0 size=N/A time=00:00:04.70 bitrate=N/A speed=2.29x elapsed=0:00:02.05    
+[out#0/null @ 0000020de942e300] video:4060KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps=140 q=21.0 Lsize=N/A time=00:00:04.96 bitrate=N/A speed=2.31x elapsed=0:00:02.14    
+bench: utime=0.797s stime=0.594s rtime=2.149s
+bench: maxrss=272248KiB

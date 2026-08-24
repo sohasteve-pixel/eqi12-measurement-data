@@ -1,0 +1,3 @@
+/eqi12-docker-test-web-1|healthy
+/eqi12-docker-test-database-1|healthy
+/eqi12-docker-test-cache-1|healthy

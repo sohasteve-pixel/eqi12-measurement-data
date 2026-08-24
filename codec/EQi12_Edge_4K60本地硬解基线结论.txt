@@ -1,0 +1,34 @@
+Beelink EQi12 - Microsoft Edge Local 4K60 Decode Baseline
+Date: 2026-07-11 (America/Los_Angeles)
+
+Source:
+- Locally generated legal test pattern; no private or copyrighted user media.
+- Codec: H.264
+- Resolution: 3840x2160
+- Frame rate: 60 fps
+- Duration: 10 seconds, looped
+- Source bitrate: approximately 108.64 Mbit/s
+
+Visible browser result:
+- Browser: Microsoft Edge
+- Test elapsed at final screenshot: 82.2 seconds
+- Total frames: 4,886
+- Dropped frames: 11
+- Dropped-frame ratio: approximately 0.23%
+- Recent decoded frame rate: 59.8 fps
+
+Windows GPU Engine sampling:
+- Counter: GPU Engine / engtype_VideoDecode / Utilization Percentage
+- Samples: 35
+- Average Video Decode utilization: 38.58%
+- Maximum Video Decode utilization: 42.91%
+
+Conclusion:
+- Edge sustained approximately 60 fps playback of the local 2160p60 H.264 source.
+- Non-zero Windows Video Decode engine activity confirms use of the GPU video-decode engine during the sampled playback period.
+- A small number of frames were dropped during startup/looped playback: 11 of 4,886 (about 0.23%).
+
+Scope boundary:
+- This is a local-file browser hardware-decode baseline.
+- It does not include YouTube Stats for Nerds, internet connection speed, YouTube codec selection, or network buffering.
+- A separate YouTube 2160p60 test remains required if the article needs YouTube-specific claims.

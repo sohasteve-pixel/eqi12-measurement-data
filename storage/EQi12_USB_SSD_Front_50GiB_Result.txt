@@ -1,0 +1,18 @@
+﻿Beelink EQi12 - USB SSD front connector 50GiB test
+Captured: 2026-07-11 08:41:24 -07:00
+Device: EAGET SSD 1TB
+Volume: D: EQi12_TEST NTFS
+Physical connector: front panel, only USB connector (前面唯一接口)
+Bytes: 53687091200
+WriteSeconds: 169.81
+WriteMiBps: 301.51
+DHashSeconds: 214.84
+ReadbackSeconds: 118.54
+ReadbackMiBps: 431.93
+RobocopyExitCode: 1
+CHashSeconds: 79.97
+SHA256_D: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+SHA256_C: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+HashMatch: True
+DiskHealth: Healthy
+VolumeHealth: Healthy

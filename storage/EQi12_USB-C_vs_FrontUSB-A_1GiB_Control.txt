@@ -1,0 +1,14 @@
+﻿
+
+Test                : Front USB-A SSD 1GiB control
+Date                : 2026-07-12T06:01:26.2002648-07:00
+Bytes               : 1073741824
+WriteCallsSeconds   : 3.426
+WriteCallsMiBs      : 298.91
+DurableFlushSeconds : 0.118
+TotalSeconds        : 3.544
+TotalMiBs           : 288.97
+
+
+
+

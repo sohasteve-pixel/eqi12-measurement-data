@@ -1,0 +1,231 @@
+﻿Beelink EQi12 - Event Summary (last 24h)
+Captured: 2026-07-11 05:01:58 -07:00
+
+System warning/error/critical count: 4
+Application warning/error/critical count: 28
+
+System events by provider/id:
+
+Count Name                                        
+----- ----                                        
+    2 Microsoft-Windows-DistributedCOM, 10016     
+    1 Microsoft-Windows-Kernel-Processor-Power, 37
+    1 Service Control Manager, 7024               
+
+
+
+Recent system details:
+
+
+TimeCreated      : 7/11/2026 3:22:48 AM
+Id               : 7024
+ProviderName     : Service Control Manager
+LevelDisplayName : Error
+Message          : The QuarkUpdater Service 1.0.0.21 (QuarkUpdaterService1.0.0.21) service terminated with the following service-specific error: 
+                   %%45
+
+TimeCreated      : 7/11/2026 3:02:40 AM
+Id               : 10016
+ProviderName     : Microsoft-Windows-DistributedCOM
+LevelDisplayName : Warning
+Message          : The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+                   {00000000-0000-0000-0000-000000000000}
+                    and APPID 
+                   {15C20B67-12E7-4BB6-92BB-7AFF07997402}
+                    to the user DESKTOP-ASAP43P\yiluo SID (S-1-5-21-1461513207-3899609509-1745788066-1002) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative 
+                   tool.
+
+TimeCreated      : 7/11/2026 3:02:40 AM
+Id               : 10016
+ProviderName     : Microsoft-Windows-DistributedCOM
+LevelDisplayName : Warning
+Message          : The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+                   {00000000-0000-0000-0000-000000000000}
+                    and APPID 
+                   {15C20B67-12E7-4BB6-92BB-7AFF07997402}
+                    to the user DESKTOP-ASAP43P\yiluo SID (S-1-5-21-1461513207-3899609509-1745788066-1002) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative 
+                   tool.
+
+TimeCreated      : 7/11/2026 2:04:21 AM
+Id               : 37
+ProviderName     : Microsoft-Windows-Kernel-Processor-Power
+LevelDisplayName : Warning
+Message          : The speed of processor 7 in group 0 is being limited by system firmware. The processor has been in this reduced performance state for 86399 seconds since the last report.
+
+
+
+
+Recent application details:
+
+
+TimeCreated      : 7/11/2026 3:50:09 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:48 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:47 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:46 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:45 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:45 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:45 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:41 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:41 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:40 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/11/2026 3:49:40 AM
+Id               : 0
+ProviderName     : WSL
+LevelDisplayName : 
+Message          : 
+
+TimeCreated      : 7/10/2026 10:28:13 PM
+Id               : 1008
+ProviderName     : Microsoft-Windows-Perflib
+LevelDisplayName : Warning
+Message          : The Open procedure for service "BITS" in DLL "C:\Windows\System32\bitsperf.dll" failed with error code An internal error occurred.. Performance data for this service will not be available.
+
+
+
+

@@ -1,0 +1,867 @@
+﻿[
+    {
+        "Id": "aef14d4282a6011306131ad187396564b19fd7c9b7df818fb64ef7acd58571d5",
+        "Created": "2026-07-11T10:50:05.66123394Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 658,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-11T10:50:09.245028785Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-07-11T11:21:24.174640989Z",
+                        "End": "2026-07-11T11:21:24.271115326Z",
+                        "ExitCode": 0,
+                        "Output": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003ctitle\u003eWelcome to nginx!\u003c/title\u003e\n\u003cstyle\u003e\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003ch1\u003eWelcome to nginx!\u003c/h1\u003e\n\u003cp\u003eIf you see this page, nginx is successfully installed and working.\nFurther configuration is required for the web server, reverse proxy, \nAPI gateway, load balancer, content cache, or other features.\u003c/p\u003e\n\n\u003cp\u003eFor online documentation and support please refer to\n\u003ca href=\"https://nginx.org/\"\u003enginx.org\u003c/a\u003e.\u003cbr/\u003e\nTo engage with the community please visit\n\u003ca href=\"https://community.nginx.org/\"\u003ecommunity.nginx.org\u003c/a\u003e.\u003cbr/\u003e\nFor enterprise grade support, professional services, additional \nsecurity features and capabilities please refer to\n\u003ca href=\"https://f5.com/nginx\"\u003ef5.com/nginx\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eThank you for using nginx.\u003c/em\u003e\u003c/p\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:34.271570906Z",
+                        "End": "2026-07-11T11:21:34.345186359Z",
+                        "ExitCode": 0,
+                        "Output": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003ctitle\u003eWelcome to nginx!\u003c/title\u003e\n\u003cstyle\u003e\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003ch1\u003eWelcome to nginx!\u003c/h1\u003e\n\u003cp\u003eIf you see this page, nginx is successfully installed and working.\nFurther configuration is required for the web server, reverse proxy, \nAPI gateway, load balancer, content cache, or other features.\u003c/p\u003e\n\n\u003cp\u003eFor online documentation and support please refer to\n\u003ca href=\"https://nginx.org/\"\u003enginx.org\u003c/a\u003e.\u003cbr/\u003e\nTo engage with the community please visit\n\u003ca href=\"https://community.nginx.org/\"\u003ecommunity.nginx.org\u003c/a\u003e.\u003cbr/\u003e\nFor enterprise grade support, professional services, additional \nsecurity features and capabilities please refer to\n\u003ca href=\"https://f5.com/nginx\"\u003ef5.com/nginx\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eThank you for using nginx.\u003c/em\u003e\u003c/p\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:44.344032786Z",
+                        "End": "2026-07-11T11:21:44.414900561Z",
+                        "ExitCode": 0,
+                        "Output": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003ctitle\u003eWelcome to nginx!\u003c/title\u003e\n\u003cstyle\u003e\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003ch1\u003eWelcome to nginx!\u003c/h1\u003e\n\u003cp\u003eIf you see this page, nginx is successfully installed and working.\nFurther configuration is required for the web server, reverse proxy, \nAPI gateway, load balancer, content cache, or other features.\u003c/p\u003e\n\n\u003cp\u003eFor online documentation and support please refer to\n\u003ca href=\"https://nginx.org/\"\u003enginx.org\u003c/a\u003e.\u003cbr/\u003e\nTo engage with the community please visit\n\u003ca href=\"https://community.nginx.org/\"\u003ecommunity.nginx.org\u003c/a\u003e.\u003cbr/\u003e\nFor enterprise grade support, professional services, additional \nsecurity features and capabilities please refer to\n\u003ca href=\"https://f5.com/nginx\"\u003ef5.com/nginx\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eThank you for using nginx.\u003c/em\u003e\u003c/p\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:54.415656142Z",
+                        "End": "2026-07-11T11:21:54.500114537Z",
+                        "ExitCode": 0,
+                        "Output": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003ctitle\u003eWelcome to nginx!\u003c/title\u003e\n\u003cstyle\u003e\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003ch1\u003eWelcome to nginx!\u003c/h1\u003e\n\u003cp\u003eIf you see this page, nginx is successfully installed and working.\nFurther configuration is required for the web server, reverse proxy, \nAPI gateway, load balancer, content cache, or other features.\u003c/p\u003e\n\n\u003cp\u003eFor online documentation and support please refer to\n\u003ca href=\"https://nginx.org/\"\u003enginx.org\u003c/a\u003e.\u003cbr/\u003e\nTo engage with the community please visit\n\u003ca href=\"https://community.nginx.org/\"\u003ecommunity.nginx.org\u003c/a\u003e.\u003cbr/\u003e\nFor enterprise grade support, professional services, additional \nsecurity features and capabilities please refer to\n\u003ca href=\"https://f5.com/nginx\"\u003ef5.com/nginx\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eThank you for using nginx.\u003c/em\u003e\u003c/p\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:22:04.500994119Z",
+                        "End": "2026-07-11T11:22:04.552517099Z",
+                        "ExitCode": 0,
+                        "Output": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003ctitle\u003eWelcome to nginx!\u003c/title\u003e\n\u003cstyle\u003e\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003ch1\u003eWelcome to nginx!\u003c/h1\u003e\n\u003cp\u003eIf you see this page, nginx is successfully installed and working.\nFurther configuration is required for the web server, reverse proxy, \nAPI gateway, load balancer, content cache, or other features.\u003c/p\u003e\n\n\u003cp\u003eFor online documentation and support please refer to\n\u003ca href=\"https://nginx.org/\"\u003enginx.org\u003c/a\u003e.\u003cbr/\u003e\nTo engage with the community please visit\n\u003ca href=\"https://community.nginx.org/\"\u003ecommunity.nginx.org\u003c/a\u003e.\u003cbr/\u003e\nFor enterprise grade support, professional services, additional \nsecurity features and capabilities please refer to\n\u003ca href=\"https://f5.com/nginx\"\u003ef5.com/nginx\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eThank you for using nginx.\u003c/em\u003e\u003c/p\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:54f2a904c251d5a34adf545a72d32515a15e08418dae0266e23be2e18c66fefa",
+        "ResolvConfPath": "/var/lib/docker/containers/aef14d4282a6011306131ad187396564b19fd7c9b7df818fb64ef7acd58571d5/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/aef14d4282a6011306131ad187396564b19fd7c9b7df818fb64ef7acd58571d5/hostname",
+        "HostsPath": "/var/lib/docker/containers/aef14d4282a6011306131ad187396564b19fd7c9b7df818fb64ef7acd58571d5/hosts",
+        "LogPath": "/var/lib/docker/containers/aef14d4282a6011306131ad187396564b19fd7c9b7df818fb64ef7acd58571d5/aef14d4282a6011306131ad187396564b19fd7c9b7df818fb64ef7acd58571d5-json.log",
+        "Name": "/eqi12-docker-test-web-1",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "eqi12-docker-test_default",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "18080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "aef14d4282a6",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.31.2",
+                "PKG_RELEASE=1",
+                "DYNPKG_RELEASE=1",
+                "NJS_VERSION=0.9.9",
+                "NJS_RELEASE=1",
+                "ACME_VERSION=0.4.1"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "wget",
+                    "-qO-",
+                    "http://127.0.0.1/"
+                ],
+                "Interval": 10000000000,
+                "Timeout": 3000000000,
+                "Retries": 3
+            },
+            "Image": "nginx:alpine",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "efa1e913ae6d823793bd5e7ca1caeecf38ef184be83c4e698bb070250f309d65",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:54f2a904c251d5a34adf545a72d32515a15e08418dae0266e23be2e18c66fefa",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "eqi12-docker-test",
+                "com.docker.compose.project.config_files": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\eqi12-docker-test\\compose.yaml",
+                "com.docker.compose.project.working_dir": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\eqi12-docker-test",
+                "com.docker.compose.service": "web",
+                "com.docker.compose.version": "5.2.0",
+                "maintainer": "NGINX Docker Maintainers \u003cdocker-maint@nginx.com\u003e"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "SandboxID": "0e0431c414d09a2f4b1977e861010f60bd59764ee6002c417485f8864b36a946",
+            "SandboxKey": "/var/run/docker/netns/0e0431c414d0",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "18080"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "18080"
+                    }
+                ]
+            },
+            "Networks": {
+                "eqi12-docker-test_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "eqi12-docker-test-web-1",
+                        "web"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "280863edfb49d0788289b0867dd3b7f3967417228848b823ddea0c5bb41da87e",
+                    "EndpointID": "c648bf9792e4ba7c802d9d8fda73eb76083b527cb2c4db4df9c7b5935e506072",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.4",
+                    "MacAddress": "12:5d:28:bc:88:64",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "eqi12-docker-test-web-1",
+                        "web",
+                        "aef14d4282a6"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:35cd77497979abe70dc8d26f5ae60811eea233a2eb5dc03c2ee30972caeb303e",
+            "size": 2495,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:e6b614541bdd5b54004869bfb2b0cfbcd475363e4d0306bc02013226db7b2f60",
+                "org.opencontainers.image.base.name": "nginx:1.31.2-alpine-slim",
+                "org.opencontainers.image.created": "2026-06-22T20:17:05Z",
+                "org.opencontainers.image.revision": "00348041cc12284266751457dcfc10b15645476a",
+                "org.opencontainers.image.source": "https://github.com/nginx/docker-nginx.git#00348041cc12284266751457dcfc10b15645476a:mainline/alpine",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/nginx",
+                "org.opencontainers.image.version": "1.31.2-alpine"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    },
+    {
+        "Id": "63f136ec9754597446dae6d0cc9c26ca1b6e4a1f5917476801736df855f92a22",
+        "Created": "2026-07-11T10:50:05.663432594Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "postgres"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 549,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-11T10:50:09.050143081Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-07-11T11:21:24.183485363Z",
+                        "End": "2026-07-11T11:21:24.266309414Z",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:34.267184476Z",
+                        "End": "2026-07-11T11:21:34.344547357Z",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:44.343133933Z",
+                        "End": "2026-07-11T11:21:44.421971732Z",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:54.423562226Z",
+                        "End": "2026-07-11T11:21:54.503910119Z",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:22:04.505761725Z",
+                        "End": "2026-07-11T11:22:04.556978706Z",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:742f40ea20b9ff2ff31db5458d127452988a2164df9e17441e191f3b72252193",
+        "ResolvConfPath": "/var/lib/docker/containers/63f136ec9754597446dae6d0cc9c26ca1b6e4a1f5917476801736df855f92a22/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/63f136ec9754597446dae6d0cc9c26ca1b6e4a1f5917476801736df855f92a22/hostname",
+        "HostsPath": "/var/lib/docker/containers/63f136ec9754597446dae6d0cc9c26ca1b6e4a1f5917476801736df855f92a22/hosts",
+        "LogPath": "/var/lib/docker/containers/63f136ec9754597446dae6d0cc9c26ca1b6e4a1f5917476801736df855f92a22/63f136ec9754597446dae6d0cc9c26ca1b6e4a1f5917476801736df855f92a22-json.log",
+        "Name": "/eqi12-docker-test-database-1",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "eqi12-docker-test_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "e852c9fb0740afb7eac75ba5ac021eefa5755c90565792601f7e8590e0e3aa23",
+                "Source": "/var/lib/docker/volumes/e852c9fb0740afb7eac75ba5ac021eefa5755c90565792601f7e8590e0e3aa23/_data",
+                "Destination": "/var/lib/postgresql/data",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "63f136ec9754",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "POSTGRES_DB=eqi12",
+                "POSTGRES_PASSWORD=eqi12-test-only",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.19",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=17",
+                "PG_VERSION=17.10",
+                "PG_SHA256=078a03516dcdbdb705fecaf415ea3d13a956c589e46f09fed68a06fb00598c90",
+                "DOCKER_PG_LLVM_DEPS=llvm21-dev \t\tclang21",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "pg_isready -U postgres -d eqi12"
+                ],
+                "Interval": 10000000000,
+                "Timeout": 3000000000,
+                "Retries": 5
+            },
+            "Image": "postgres:17-alpine",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "2c02cdc5872c0f577e85a3669a5763ace1e9ddb47049c511245ab3ae0ae87a3c",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:742f40ea20b9ff2ff31db5458d127452988a2164df9e17441e191f3b72252193",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "eqi12-docker-test",
+                "com.docker.compose.project.config_files": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\eqi12-docker-test\\compose.yaml",
+                "com.docker.compose.project.working_dir": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\eqi12-docker-test",
+                "com.docker.compose.service": "database",
+                "com.docker.compose.version": "5.2.0"
+            },
+            "StopSignal": "SIGINT"
+        },
+        "NetworkSettings": {
+            "SandboxID": "ca5a660b81d056d9a8acc2f36dbb59ff2c90ababfd9b21fc7a6c09d65be33552",
+            "SandboxKey": "/var/run/docker/netns/ca5a660b81d0",
+            "Ports": {
+                "5432/tcp": null
+            },
+            "Networks": {
+                "eqi12-docker-test_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "eqi12-docker-test-database-1",
+                        "database"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "280863edfb49d0788289b0867dd3b7f3967417228848b823ddea0c5bb41da87e",
+                    "EndpointID": "8adaa9c8d0444ff24ba008dc1252c287ac939ba74513ed29e3f032f1592425a0",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.3",
+                    "MacAddress": "1e:a3:ee:79:37:65",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "eqi12-docker-test-database-1",
+                        "database",
+                        "63f136ec9754"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:af194ccf3e2d7fe367012c7b88ce8b816c5c889b18a5b316799a1f0d7eac746a",
+            "size": 2866,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:79ff19e9084a00eece421b2523fb93e22d730e2c0e525905de047e848e56d95f",
+                "org.opencontainers.image.base.name": "alpine:3.24",
+                "org.opencontainers.image.created": "2026-07-07T17:44:18Z",
+                "org.opencontainers.image.revision": "4f9ced003ba58a854656ba150d146243d27ae3ac",
+                "org.opencontainers.image.source": "https://github.com/docker-library/postgres.git#4f9ced003ba58a854656ba150d146243d27ae3ac:17/alpine3.24",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/postgres",
+                "org.opencontainers.image.version": "17.10-alpine3.24"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    },
+    {
+        "Id": "5d8a99d5f30234821dfcc59ff32f520924d0e9130fe36800655f4a4ad42a8a46",
+        "Created": "2026-07-11T10:50:05.658407287Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "redis-server"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 548,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-11T10:50:09.051533896Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-07-11T11:21:24.176994836Z",
+                        "End": "2026-07-11T11:21:24.264244439Z",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:34.26587017Z",
+                        "End": "2026-07-11T11:21:34.343585565Z",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:44.342149479Z",
+                        "End": "2026-07-11T11:21:44.411885501Z",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:21:54.413081287Z",
+                        "End": "2026-07-11T11:21:54.504309514Z",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2026-07-11T11:22:04.505737269Z",
+                        "End": "2026-07-11T11:22:04.562533022Z",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:9d317178eceac8454a2284a9e6df2466b93c745529947f0cd42a0fa9609d7005",
+        "ResolvConfPath": "/var/lib/docker/containers/5d8a99d5f30234821dfcc59ff32f520924d0e9130fe36800655f4a4ad42a8a46/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/5d8a99d5f30234821dfcc59ff32f520924d0e9130fe36800655f4a4ad42a8a46/hostname",
+        "HostsPath": "/var/lib/docker/containers/5d8a99d5f30234821dfcc59ff32f520924d0e9130fe36800655f4a4ad42a8a46/hosts",
+        "LogPath": "/var/lib/docker/containers/5d8a99d5f30234821dfcc59ff32f520924d0e9130fe36800655f4a4ad42a8a46/5d8a99d5f30234821dfcc59ff32f520924d0e9130fe36800655f4a4ad42a8a46-json.log",
+        "Name": "/eqi12-docker-test-cache-1",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "eqi12-docker-test_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "5d8a99d5f302",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "6379/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "REDIS_VERSION=8.8.0"
+            ],
+            "Cmd": [
+                "redis-server"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "redis-cli",
+                    "ping"
+                ],
+                "Interval": 10000000000,
+                "Timeout": 3000000000,
+                "Retries": 3
+            },
+            "Image": "redis:8-alpine",
+            "Volumes": null,
+            "WorkingDir": "/data",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "5567b0c47f94b0f52fd3ff431fb0acbfcc93ffc5c145fbdccabfb5dbe5648a36",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:9d317178eceac8454a2284a9e6df2466b93c745529947f0cd42a0fa9609d7005",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "eqi12-docker-test",
+                "com.docker.compose.project.config_files": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\eqi12-docker-test\\compose.yaml",
+                "com.docker.compose.project.working_dir": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\eqi12-docker-test",
+                "com.docker.compose.service": "cache",
+                "com.docker.compose.version": "5.2.0"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "218cacc4702f66feb2eda41c6f7367fa55a9b4dd98977a5c66038d43341aad57",
+            "SandboxKey": "/var/run/docker/netns/218cacc4702f",
+            "Ports": {
+                "6379/tcp": null
+            },
+            "Networks": {
+                "eqi12-docker-test_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "eqi12-docker-test-cache-1",
+                        "cache"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "280863edfb49d0788289b0867dd3b7f3967417228848b823ddea0c5bb41da87e",
+                    "EndpointID": "ba680c47b6695be540e62c3ed6d3f0819dced7770ab86f8166bcc1e20b5c7042",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.2",
+                    "MacAddress": "fa:de:4b:e9:fe:1d",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "eqi12-docker-test-cache-1",
+                        "cache",
+                        "5d8a99d5f302"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:cd5f3ac681c77791c6a8eaa62de876ad2be043ee5a428afb7c0095aa08246277",
+            "size": 2288,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:1beb0dc0a51de7ff38e3b5274078a2e0b81113ba5c7535e1a03d5913a5edbda3",
+                "org.opencontainers.image.base.name": "alpine:3.23",
+                "org.opencontainers.image.created": "2026-06-22T19:50:23Z",
+                "org.opencontainers.image.revision": "40511fc518c300f3b48059daf43c7ac2ef97550b",
+                "org.opencontainers.image.source": "https://github.com/redis/docker-library-redis.git#40511fc518c300f3b48059daf43c7ac2ef97550b:alpine",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/redis",
+                "org.opencontainers.image.version": "8.8.0-alpine"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

@@ -1,0 +1,28 @@
+﻿Beelink EQi12 internal SSD pre-test
+Captured: 2026-07-11 22:10:21 -07:00
+
+
+FriendlyName      : WD PC SN540 SDDPNPF-512G
+SerialNumber      : E823_8FA6_BF53_0001_001B_448B_4D06_FE19.
+BusType           : NVMe
+MediaType         : SSD
+HealthStatus      : Healthy
+OperationalStatus : OK
+Size              : 512110190592
+
+
+
+
+
+
+
+DriveLetter     : C
+FileSystemLabel : Windows
+FileSystem      : NTFS
+HealthStatus    : Healthy
+SizeRemaining   : 351825547264
+Size            : 510808887296
+
+
+
+

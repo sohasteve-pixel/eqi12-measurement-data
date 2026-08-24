@@ -1,0 +1,8 @@
+
+FriendlyName             MediaType BusType HealthStatus OperationalStatus SizeGB
+------------             --------- ------- ------------ ----------------- ------
+WD PC SN540 SDDPNPF-512G SSD       NVMe    Healthy      OK                476.94
+EAGET SSD 1TB            SSD       USB     Healthy      OK                931.51
+
+
+

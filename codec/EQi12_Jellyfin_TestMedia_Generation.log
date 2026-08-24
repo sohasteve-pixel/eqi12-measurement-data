@@ -1,0 +1,36 @@
+﻿Input #0, lavfi, from 'testsrc2=size=3840x2160:rate=60':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 3840x2160 [SAR 1:1 DAR 16:9], 60 fps, 60 tbr, 60 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x7d1eb52b4e00] using SAR=1/1
+[libx264 @ 0x7d1eb52b4e00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x7d1eb52b4e00] profile Constrained Baseline, level 5.2, 4:2:0, 8-bit
+[libx264 @ 0x7d1eb52b4e00] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to '/media/EQi12_4K60_10s.mp4':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 3840x2160 [SAR 1:1 DAR 16:9], q=2-31, 60 fps, 15360 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   31 fps=0.0 q=22.0 size=    6656KiB time=00:00:00.51 bitrate=105534.8kbits/s speed=1.03x    
+frame=   90 fps= 90 q=22.0 size=   19456KiB time=00:00:01.61 bitrate=98588.0kbits/s speed=1.61x    
+frame=  167 fps=111 q=22.0 size=   36608KiB time=00:00:02.78 bitrate=107746.0kbits/s speed=1.85x    
+frame=  237 fps=118 q=22.0 size=   51968KiB time=00:00:03.96 bitrate=107324.9kbits/s speed=1.98x    
+frame=  316 fps=126 q=22.0 size=   69632KiB time=00:00:05.28 bitrate=107967.0kbits/s speed=2.11x    
+frame=  396 fps=132 q=22.0 size=   87296KiB time=00:00:06.60 bitrate=108352.9kbits/s speed= 2.2x    
+frame=  474 fps=135 q=22.0 size=  104448KiB time=00:00:07.90 bitrate=108308.7kbits/s speed=2.25x    
+frame=  551 fps=137 q=22.0 size=  121344KiB time=00:00:09.18 bitrate=108245.1kbits/s speed=2.29x    
+[out#0/mp4 @ 0x7d1eb5281040] video:132618KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.002840%
+frame=  600 fps=141 q=-1.0 Lsize=  132622KiB time=00:00:10.00 bitrate=108643.6kbits/s speed=2.35x    
+[libx264 @ 0x7d1eb52b4e00] frame I:3     Avg QP:19.33  size:362183
+[libx264 @ 0x7d1eb52b4e00] frame P:597   Avg QP:22.02  size:225651
+[libx264 @ 0x7d1eb52b4e00] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0x7d1eb52b4e00] mb P  I16..4:  1.4%  0.0%  0.0%  P16..4:  7.7%  0.0%  0.0%  0.0%  0.0%    skip:91.0%
+[libx264 @ 0x7d1eb52b4e00] coded y,uvDC,uvAC intra: 3.8% 7.3% 5.3% inter: 4.8% 7.1% 6.5%
+[libx264 @ 0x7d1eb52b4e00] i16 v,h,dc,p: 94%  3%  2%  0%
+[libx264 @ 0x7d1eb52b4e00] i8c dc,h,v,p: 80%  5% 15%  0%
+[libx264 @ 0x7d1eb52b4e00] kb/s:108640.04

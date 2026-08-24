@@ -1,0 +1,31 @@
+Beelink EQi12 - Dual Gigabit Ethernet Bidirectional 4 GiB Test
+Date: 2026-07-11 (America/Los_Angeles)
+
+Topology:
+- EQi12 under test: 192.168.5.9
+- Peer computer: 192.168.5.8
+- Both computers connected by Ethernet through the same router.
+- EQi12 active adapter: Realtek PCIe GbE Family Controller #2 / Ethernet 2.
+- Negotiated EQi12 link speed: 1 Gbps.
+- Both EQi12 Realtek adapters configured for DHCP.
+
+Direction 1: EQi12 under test -> peer
+- Bytes: 4,294,967,296 (4 GiB)
+- EQi12 sender: 37.66 seconds, 108.76 MiB/s, approximately 912.35 decimal Mbit/s.
+- Peer receiver: 37.67 seconds, 869.79 binary Mbps, approximately 912.04 decimal Mbit/s.
+
+Direction 2: peer -> EQi12 under test
+- Bytes: 4,294,967,296 (4 GiB)
+- Peer sender: 36.54 seconds, 112.1 MiB/s, approximately 940.34 decimal Mbit/s.
+- EQi12 receiver: 36.51 seconds, 112.2 MiB/s, approximately 941.18 decimal Mbit/s.
+
+Conclusion:
+- Both directions transferred the complete 4 GiB payload.
+- Throughput is consistent with a healthy 1 Gbps Ethernet path after protocol overhead.
+- Direction 1 sender/receiver timings agree within 0.01 seconds.
+- Direction 2 sender/receiver timings agree within 0.03 seconds.
+- No missing bytes or connection failure was observed.
+
+Unit note:
+- The PowerShell scripts report binary Mbps using 1 MiB as the divisor.
+- Decimal Mbit/s values above multiply that result by 1.048576.

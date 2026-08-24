@@ -1,0 +1,42 @@
+Beelink EQi12 - Four USB Connector 50GiB Comparison
+Date: 2026-07-11 (America/Los_Angeles)
+Device and cable: same EAGET SSD 1TB and same cable
+Filesystem: NTFS
+File size per connector: 53,687,091,200 bytes (50 GiB)
+
+1. Rear panel, first port from the left (后面左一)
+- Write: approximately 36.36 MiB/s (conservative wall time; two segments because the controller process timed out and resumed at the exact file end)
+- Unbuffered readback: 42.06 MiB/s
+- SHA256 match: TRUE
+- Disconnect/copy failure: none
+- Final disk/volume health: Healthy
+
+2. Rear panel, second port from the left (后面左二)
+- Write: 301.91 MiB/s
+- Unbuffered readback: 431.80 MiB/s
+- SHA256 match: TRUE
+- Disconnect/copy failure: none
+- Final disk/volume health: Healthy
+
+3. Rear panel, third port from the left (后面左三)
+- Write: 300.64 MiB/s
+- Unbuffered readback: 432.06 MiB/s
+- SHA256 match: TRUE
+- Disconnect/copy failure: none
+- Final disk/volume health: Healthy
+
+4. Front panel, only tested USB connector (前面唯一接口)
+- Write: 301.51 MiB/s
+- Unbuffered readback: 431.93 MiB/s
+- SHA256 match: TRUE
+- Disconnect/copy failure: none
+- Final disk/volume health: Healthy
+
+Conclusion:
+- Rear-left-2, rear-left-3, and the front connector produced effectively identical high-speed results.
+- Rear-left-1 was approximately 8 to 10 times slower under the same SSD and cable.
+- The difference is confirmed by complete 50 GiB transfers and matching SHA256 values.
+- Do not assign a USB generation solely from these throughput results; retain the physical mapping and, if needed, verify negotiated USB speed with USB topology tooling.
+
+Common SHA256 for the deterministic 50 GiB test file:
+10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590

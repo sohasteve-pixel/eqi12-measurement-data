@@ -1,0 +1,4 @@
+﻿NAME                           IMAGE                COMMAND                  SERVICE    CREATED        STATUS                  PORTS
+eqi12-docker-test-cache-1      redis:8-alpine       "docker-entrypoint.s…"   cache      18 hours ago   Up 18 hours (healthy)   6379/tcp
+eqi12-docker-test-database-1   postgres:17-alpine   "docker-entrypoint.s…"   database   18 hours ago   Up 18 hours (healthy)   5432/tcp
+eqi12-docker-test-web-1        nginx:alpine         "/docker-entrypoint.…"   web        18 hours ago   Up 18 hours (healthy)   0.0.0.0:18080->80/tcp, [::]:18080->80/tcp

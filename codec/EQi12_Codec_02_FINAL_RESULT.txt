@@ -1,0 +1,34 @@
+﻿EQi12 Intel QSV Codec Matrix
+Generated sources:
+
+Name        ExitCode Seconds   Bytes
+----        -------- -------   -----
+HEVC_MAIN10        0    3.04 1982230
+VP9                0    1.65 2931944
+AV1                0    1.58 3484527
+
+
+
+Hardware tests:
+
+Test                        Passed ExitCode Frames Speed WallSeconds
+----                        ------ -------- ------ ----- -----------
+DEC_H264_QSV_4K60             True        0 300    4.17x        1.47
+DEC_HEVC_MAIN10_QSV_1080P60   True        0 300    18.9x        0.53
+DEC_VP9_QSV_1080P60           True        0 300    23.3x        0.48
+DEC_AV1_QSV_1080P60           True        0 300    16.7x        0.55
+TRANSCODE_H264_TO_H264_QSV    True        0 300    2.31x        2.42
+ENC_HEVC_QSV_MAIN10           True        0 300    1.52x        3.55
+ENC_AV1_QSV_PROBE            False      -40 0      N/A          0.32
+
+
+
+Failed/unsupported details:
+
+
+Test      : ENC_AV1_QSV_PROBE
+LastError : Conversion failed!
+
+
+
+

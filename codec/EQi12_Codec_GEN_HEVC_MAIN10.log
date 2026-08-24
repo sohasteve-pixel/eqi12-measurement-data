@@ -1,0 +1,21 @@
+Input #0, lavfi, from 'testsrc2=size=1920x1080:rate=60':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 60 fps, 60 tbr, 60 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+Output #0, matroska, to 'C:\EQi12_Codec_Evidence\source_hevc_main10_1080p60_5s.mkv':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Video: hevc, yuv420p10le(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 60 fps, 1k tbn
+    Metadata:
+      encoder         : Lavc62.28.102 libx265
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   37 fps=0.0 q=41.0 size=       3KiB time=00:00:00.58 bitrate=  41.1kbits/s speed=1.15x elapsed=0:00:00.50    
+frame=   95 fps= 93 q=40.0 size=       3KiB time=00:00:01.55 bitrate=  15.5kbits/s speed=1.51x elapsed=0:00:01.02    
+frame=  149 fps= 97 q=41.0 size=       3KiB time=00:00:02.45 bitrate=   9.8kbits/s speed=1.59x elapsed=0:00:01.54    
+frame=  202 fps= 98 q=37.4 size=       3KiB time=00:00:03.33 bitrate=   7.2kbits/s speed=1.62x elapsed=0:00:02.05    
+frame=  256 fps= 99 q=37.1 size=    1536KiB time=00:00:04.23 bitrate=2972.3kbits/s speed=1.64x elapsed=0:00:02.57    
+[out#0/matroska @ 0000017a68b4fd40] video:1931KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:2KiB muxing overhead: 0.261854%
+frame=  300 fps=102 q=38.0 Lsize=    1936KiB time=00:00:04.96 bitrate=3192.9kbits/s speed=1.69x elapsed=0:00:02.93    

@@ -1,0 +1,7 @@
+﻿EQi12 S5 WOL 5-cycle test initialized: 2026-07-12T22:36:27.3255804-07:00
+Cycle 1 COMPLETE S5WOL=PASS Boot=2026-07-12T22:33:49.5000000-07:00 Check=2026-07-12T22:36:22.2820403-07:00 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 ContainerStartSeconds=41.39 LastWake=Wake History Count - 0 Evidence=PhoneVideo+PeerSender
+Cycle 2 COMPLETE S5WOL=PASS Boot=2026-07-12T22:38:21.5000000-07:00 Check=2026-07-12T22:40:33.5058940-07:00 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 ContainerStartSeconds=41.04 LastWake=S5_NotReported Evidence=PhoneVideo+PeerSender
+Cycle 3 COMPLETE S5WOL=PASS Boot=2026-07-12T22:42:20.5000000-07:00 Check=2026-07-12T22:44:59.0172923-07:00 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 ContainerStartSeconds=51.99 LastWake=S5_NotReported Evidence=PhoneVideo+PeerSender
+Cycle 4 COMPLETE S5WOL=PASS Boot=2026-07-12T22:46:35.5000000-07:00 Check=2026-07-12T22:48:48.9587753-07:00 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 ContainerStartSeconds=35.81 LastWake=S5_NotReported Evidence=PhoneVideo+PeerSender
+Cycle 5 COMPLETE S5WOL=PASS Boot=2026-07-12T22:50:20.5000000-07:00 Check=2026-07-12T22:52:21.8321627-07:00 Network=PASS Interface=Ethernet IPv4=192.168.5.22 JellyfinHTTP=200 ContainerStartSeconds=39.76 LastWake=S5_NotReported Evidence=PhoneVideo+PeerSender
+TEST_COMPLETE 2026-07-12T22:52:27.0084884-07:00 S5WOL=5/5_PASS ColdBoot=5/5_PASS

@@ -1,0 +1,17 @@
+EQi12 INTEL QSV CODEC MATRIX - VALID CORRECTED RUN
+
+Test                              Pass   Frames  Speed
+H.264 QSV decode 4K60             YES    300     4.17x
+HEVC Main10 QSV decode 1080p60    YES    300     18.9x
+VP9 QSV decode 1080p60            YES    300     23.3x
+AV1 QSV decode 1080p60            YES    300     16.7x
+H.264 to H.264 QSV transcode      YES    300     2.31x
+HEVC Main10 QSV encode            YES    300     1.52x
+AV1 QSV encode                    NO     0       N/A
+
+AV1 ENCODE DRIVER RESULT
+Current codec type is unsupported.
+Function not implemented (exit code -40).
+
+The earlier 0.03-second all-fail run was a script argument error and is
+retained separately as INVALID_FIRST. It is not a hardware result.

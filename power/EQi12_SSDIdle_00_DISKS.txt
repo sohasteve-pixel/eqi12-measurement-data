@@ -1,0 +1,8 @@
+
+Number FriendlyName             BusType PartitionStyle OperationalStatus HealthStatus SizeGB
+------ ------------             ------- -------------- ----------------- ------------ ------
+     1 EAGET SSD 1TB            USB     GPT            Online            Healthy      931.51
+     0 WD PC SN540 SDDPNPF-512G NVMe    GPT            Online            Healthy      476.94
+
+
+

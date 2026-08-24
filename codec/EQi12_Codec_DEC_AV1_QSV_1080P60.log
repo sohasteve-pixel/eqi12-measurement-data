@@ -1,0 +1,23 @@
+Input #0, matroska,webm, from 'C:\EQi12_Codec_Evidence\source_av1_1080p60_5s.mkv':
+  Metadata:
+    ENCODER         : Lavf62.12.102
+  Duration: 00:00:05.00, start: 0.000000, bitrate: 5575 kb/s
+  Stream #0:0: Video: av1 (libdav1d) (Main), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 60 fps, 60 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc62.28.102 libsvtav1
+      DURATION        : 00:00:05.000000000
+[D3D11VA @ 00000256339c2080] Using device 8086:46b3 (Intel(R) UHD Graphics).
+Stream mapping:
+  Stream #0:0 -> #0:0 (av1 (av1_qsv) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Video: wrapped_avframe, qsv(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 60 fps, 60 tbn
+    Metadata:
+      encoder         : Lavc62.28.102 wrapped_avframe
+      DURATION        : 00:00:05.000000000
+[out#0/null @ 00000256339bd100] video:124KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  300 fps=0.0 q=-0.0 Lsize=N/A time=00:00:05.00 bitrate=N/A speed=16.7x elapsed=0:00:00.29    
+bench: utime=0.078s stime=0.109s rtime=0.299s
+bench: maxrss=145960KiB

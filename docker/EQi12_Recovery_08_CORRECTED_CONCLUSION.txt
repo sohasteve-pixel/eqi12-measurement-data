@@ -1,0 +1,20 @@
+EQi12 CONTAINER RECOVERY / BACKUP-RESTORE — CORRECTED CONCLUSION
+
+Service restart and persistence:
+- nginx ready after restart: 0.660 s; configuration reloaded successfully.
+- PostgreSQL ready after restart: 0.833 s; marker data persisted.
+- Redis ready after restart: 2.042 s; marker data persisted.
+
+Backup and restore:
+- PostgreSQL pg_dump into a temporary restore database: PASS; restored marker matched.
+- Redis first binary DUMP/RESTORE attempt: INVALID. PowerShell's text pipeline appended one newline byte to the binary payload, so Redis rejected the altered payload. This is a test-harness transport error, not data loss.
+- Redis corrected binary-safe attempt (the extra pipeline byte removed before RESTORE): PASS; RESTORE returned OK and the marker matched.
+- nginx configuration export: PASS.
+
+Final cleanup and health:
+- Temporary PostgreSQL restore database count: 0.
+- Redis temporary database 15 key count: 0.
+- nginx, PostgreSQL and Redis containers: healthy.
+
+Interpretation:
+The stack recovered automatically after individual container restarts and preserved application data. PostgreSQL and Redis backups were both restored and verified. The invalid first Redis attempt remains in the raw evidence for auditability and must not be reported as a device or Redis failure.

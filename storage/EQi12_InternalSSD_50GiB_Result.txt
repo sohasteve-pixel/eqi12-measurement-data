@@ -1,0 +1,14 @@
+﻿Beelink EQi12 - Internal SSD 50GiB sustained write/read baseline
+Captured: 2026-07-11 22:14:30 -07:00
+Drive: WD PC SN540 512GB NVMe
+Bytes: 53687091200
+WriteSeconds: 82.15
+WriteMiBps: 623.29
+FullReadHashSeconds: 109.36
+FullReadMiBps: 468.2
+SHA256: 10B919C77E9D463AB38F7204BB8785E070628FE02B9BE879A06820ACEDED1590
+PhysicalDiskHealth: Healthy
+PhysicalDiskOperational: OK
+VolumeHealth: Healthy
+PostFreeBytes: 298262794240
+Temperature/SMART detail: unavailable because Storage Reliability Counter access was denied; do not infer temperature.

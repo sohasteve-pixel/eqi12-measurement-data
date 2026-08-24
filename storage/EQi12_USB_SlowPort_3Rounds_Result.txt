@@ -1,0 +1,16 @@
+﻿EQi12 USB-A slow-port 3-round retest
+Device=EAGET SSD 1TB
+Port=rear-left USB-A previously identified as slow
+Payload=4GiB per round
+SourceSHA256=25030DF25FBD998E590959F8A44832BDCE833E3C9E3746DAF5010435C3DACB12
+Pass=3/3
+
+
+Round WriteSeconds WriteMiBps ReadSeconds ReadMiBps HashMatch
+----- ------------ ---------- ----------- --------- ---------
+    1          104      39.38          95     43.12      True
+    2       104.08      39.35      100.03     40.95      True
+    3       103.04      39.75        99.8     41.04      True
+
+
+

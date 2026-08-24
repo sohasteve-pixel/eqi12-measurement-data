@@ -1,0 +1,22 @@
+EQi12 CONTAINER RECOVERY AND BACKUP-RESTORE RESULT
+
+RESTART / PERSISTENCE
+nginx ready:      0.660 s    config reload PASS
+PostgreSQL ready: 0.833 s    marker persisted PASS
+Redis ready:      2.042 s    marker persisted PASS
+
+BACKUP / RESTORE
+PostgreSQL pg_dump and temporary-database restore: PASS
+Redis corrected binary-safe DUMP and RESTORE: PASS
+Redis RESTORE response: OK; marker matched: True
+nginx configuration export: PASS
+
+AUDIT NOTE
+The first Redis attempt was INVALID because a text pipeline appended one
+newline byte to binary DUMP data. The corrected binary-safe attempt passed.
+Both raw attempts are retained; the invalid attempt is not a Redis failure.
+
+FINAL STATE
+Temporary PostgreSQL database count: 0
+Redis temporary DB 15 key count: 0
+nginx / PostgreSQL / Redis: healthy

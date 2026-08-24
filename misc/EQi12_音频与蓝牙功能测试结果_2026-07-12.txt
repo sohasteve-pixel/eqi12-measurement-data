@@ -1,0 +1,18 @@
+EQi12 音频与蓝牙功能测试
+日期：2026-07-12
+
+3.5mm耳麦：
+- Windows端点：Speakers (Realtek High Definition Audio)，状态OK。
+- 麦克风端点：Microphone (Realtek High Definition Audio)，状态OK。
+- 左声道660Hz、右声道880Hz实际播放：用户确认左右均清楚听到。
+- 耳麦麦克风实际录音并回放：用户确认录音清楚。
+
+蓝牙耳机：OPPO Enco R2
+- 蓝牙设备、AVRCP传输：状态OK。
+- Headphones立体声输出：状态OK。
+- Hands-Free输出：状态OK。
+- Headset麦克风输入：状态OK。
+- 左右声道实际播放：用户确认左右均清楚听到。
+- 蓝牙麦克风实际录音并回放：用户确认录音清楚。
+
+结论：3.5mm耳麦输出/输入、蓝牙配对、蓝牙立体声输出及蓝牙麦克风输入均通过实际功能测试。

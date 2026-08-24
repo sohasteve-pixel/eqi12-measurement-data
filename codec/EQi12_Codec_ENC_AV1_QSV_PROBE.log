@@ -1,0 +1,29 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\EQi12_JellyfinNative\media\PLAY_THIS_5MIN_4K60_QSV_TEST.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.103
+  Duration: 00:05:00.00, start: 0.000000, bitrate: 108643 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(progressive), 3840x2160 [SAR 1:1 DAR 16:9], 108640 kb/s, 60 fps, 60 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc61.19.101 libx264
+[D3D11VA @ 00000169b94f9900] Using device 8086:46b3 (Intel(R) UHD Graphics).
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (h264_qsv) -> av1 (av1_qsv))
+Press [q] to stop, [?] for help
+[av1_qsv @ 00000169bb6b0300] Current codec type is unsupported
+[av1_qsv @ 00000169bb6b0300] Selected ratecontrol mode is unsupported
+[av1_qsv @ 00000169bb6b0300] some encoding parameters are not supported by the QSV runtime. Please double check the input parameters.
+[vost#0:0/av1_qsv @ 00000169bb6b00c0] [enc:av1_qsv @ 00000169b9533840] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+[vf#0:0 @ 00000169b9583540] Error sending frames to consumers: Function not implemented
+[vf#0:0 @ 00000169b9583540] Task finished with error code: -40 (Function not implemented)
+[vf#0:0 @ 00000169b9583540] Terminating thread with return code -40 (Function not implemented)
+[vost#0:0/av1_qsv @ 00000169bb6b00c0] [enc:av1_qsv @ 00000169b9533840] Could not open encoder before EOF
+[vost#0:0/av1_qsv @ 00000169bb6b00c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/av1_qsv @ 00000169bb6b00c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/null @ 00000169b94fd640] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.06    
+bench: maxrss=167320KiB
+Conversion failed!

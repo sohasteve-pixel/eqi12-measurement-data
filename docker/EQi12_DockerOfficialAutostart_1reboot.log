@@ -1,0 +1,4 @@
+﻿Official Docker autostart one-reboot verification initialized: 2026-07-12T20:34:41.3109859-07:00
+Cycle 1 LOGON_CHECK 2026-07-12T20:43:09.4534431-07:00 Boot=2026-07-12T20:36:22.5000000-07:00 BootToCheckSeconds=406.95
+Cycle 1 RECOVERY Ethernet=Up IPv4=192.168.5.22 Gateway=True BootToNetworkSeconds=414.13 Jellyfin=Healthy BootToJellyfinSeconds=414.25
+TEST_COMPLETE 2026-07-12T20:43:26.6636603-07:00

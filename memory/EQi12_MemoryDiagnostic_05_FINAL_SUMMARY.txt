@@ -1,0 +1,15 @@
+﻿EQi12 WINDOWS MEMORY DIAGNOSTIC - FINAL RESULT
+
+Result time: 2026-07-13 23:36:22
+Event IDs: 1101, 1201
+Level: Information
+Result: PASS - Windows Memory Diagnostic detected no errors.
+
+Post-diagnostic boot time: 07/13/2026 23:35:54
+Docker containers after diagnostic:
+eqi12-jellyfin|Up 3 minutes (healthy)
+eqi12-docker-test-database-1|Up 3 minutes (healthy)
+eqi12-docker-test-web-1|Up 3 minutes (healthy)
+eqi12-docker-test-cache-1|Up 3 minutes (healthy)
+
+Evidence note: the blue diagnostic screen was photographed by the user; phone photos still need to be copied into the handoff folder.

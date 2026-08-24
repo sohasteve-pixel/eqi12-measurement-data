@@ -1,0 +1,69 @@
+===== C:\EQi12_Codec_Evidence\source_hevc_main10_1080p60_5s.mkv =====
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "hevc",
+            "profile": "Main 10",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p10le",
+            "r_frame_rate": "60/1"
+        }
+    ],
+    "format": {
+        "duration": "5.000000",
+        "size": "1982230"
+    }
+}
+===== C:\EQi12_Codec_Evidence\source_vp9_1080p60_5s.webm =====
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "vp9",
+            "profile": "Profile 0",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1"
+        }
+    ],
+    "format": {
+        "duration": "5.000000",
+        "size": "2931944"
+    }
+}
+===== C:\EQi12_Codec_Evidence\source_av1_1080p60_5s.mkv =====
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "av1",
+            "profile": "Main",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1"
+        }
+    ],
+    "format": {
+        "duration": "5.000000",
+        "size": "3484527"
+    }
+}

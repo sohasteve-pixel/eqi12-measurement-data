@@ -1,0 +1,13 @@
+﻿READY 2026-07-12T04:46:23.3147864-07:00 Local=192.168.5.22 Port=5201
+
+
+Direction : Peer_to_EQi12_NIC1
+Bytes     : 4294967296
+GiB       : 4
+Seconds   : 36.31
+Mbps      : 902.57
+Completed : 2026-07-12T04:56:05.3333671-07:00
+
+
+
+

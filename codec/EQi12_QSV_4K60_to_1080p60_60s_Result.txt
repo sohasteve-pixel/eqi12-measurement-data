@@ -1,0 +1,74 @@
+﻿EQi12 Intel QSV 4K60 to 1080p60 Test
+Start: 2026-07-13T04:07:26.0651672-07:00
+End: 2026-07-13T04:08:27.1308227-07:00
+WallSeconds: 61.07
+ProcessExitCode: 
+Input: six losslessly concatenated copies of EQi12_4K60_10s.mp4
+Output: EQi12_QSV_1080p60_60s.mp4
+OutputSHA256: C93A80F91644020BA9881A483CE9A891744BA590B300298C266EE4BD8015B405
+Samples: 31
+CPU_Avg: 22.52%
+CPU_Max: 45.6%
+VideoDecode_Avg: 55.54%
+VideoDecode_Max: 61.16%
+VideoEncode_Avg: 0%
+VideoEncode_Max: 0%
+
+FFPROBE:
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60/1"
+        }
+    ],
+    "format": {
+        "filename": "C:\\Users\\yiluo\\Documents\\Codex\\2026-07-11\\zhe\\work\\EQi12_QSV_1080p60_60s.mp4",
+        "duration": "60.000000",
+        "size": "53576699",
+        "bit_rate": "7143559"
+    }
+}
+
+FFMPEG LOG TAIL:
+frame= 2782 fps= 60 q=28.0 size=   40192KiB time=00:00:46.33 bitrate=7106.2kbits/s speed=1.01x elapsed=0:00:46.02    
+frame= 2813 fps= 60 q=28.0 size=   40704KiB time=00:00:46.85 bitrate=7117.3kbits/s speed=1.01x elapsed=0:00:46.54    
+frame= 2844 fps= 60 q=28.0 size=   41216KiB time=00:00:47.36 bitrate=7128.3kbits/s speed=1.01x elapsed=0:00:47.05    
+frame= 2875 fps= 60 q=21.0 size=   41728KiB time=00:00:47.88 bitrate=7138.9kbits/s speed=1.01x elapsed=0:00:47.57    
+frame= 2906 fps= 60 q=28.0 size=   41984KiB time=00:00:48.40 bitrate=7106.1kbits/s speed=1.01x elapsed=0:00:48.08    
+frame= 2937 fps= 60 q=28.0 size=   42496KiB time=00:00:48.91 bitrate=7116.7kbits/s speed=1.01x elapsed=0:00:48.60    
+frame= 2968 fps= 60 q=22.0 size=   43008KiB time=00:00:49.43 bitrate=7127.2kbits/s speed=1.01x elapsed=0:00:49.11    
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002e5fcfb9780] Auto-inserting h264_mp4toannexb bitstream filter
+frame= 2999 fps= 60 q=28.0 size=   43520KiB time=00:00:49.95 bitrate=7137.5kbits/s speed=1.01x elapsed=0:00:49.63    
+frame= 3029 fps= 60 q=28.0 size=   43776KiB time=00:00:50.45 bitrate=7108.3kbits/s speed=1.01x elapsed=0:00:50.14    
+frame= 3060 fps= 60 q=28.0 size=   44288KiB time=00:00:50.96 bitrate=7118.5kbits/s speed=1.01x elapsed=0:00:50.66    
+frame= 3091 fps= 60 q=28.0 size=   44800KiB time=00:00:51.48 bitrate=7128.6kbits/s speed=1.01x elapsed=0:00:51.17    
+frame= 3123 fps= 60 q=28.0 size=   45056KiB time=00:00:52.01 bitrate=7095.8kbits/s speed=1.01x elapsed=0:00:51.70    
+frame= 3154 fps= 60 q=28.0 size=   45568KiB time=00:00:52.53 bitrate=7105.8kbits/s speed=1.01x elapsed=0:00:52.21    
+frame= 3184 fps= 60 q=28.0 size=   46080KiB time=00:00:53.03 bitrate=7117.9kbits/s speed=1.01x elapsed=0:00:52.73    
+frame= 3215 fps= 60 q=22.0 size=   46592KiB time=00:00:53.55 bitrate=7127.6kbits/s speed=1.01x elapsed=0:00:53.24    
+frame= 3246 fps= 60 q=28.0 size=   46848KiB time=00:00:54.06 bitrate=7098.3kbits/s speed=1.01x elapsed=0:00:53.76    
+frame= 3277 fps= 60 q=28.0 size=   47360KiB time=00:00:54.58 bitrate=7107.9kbits/s speed=1.01x elapsed=0:00:54.27    
+frame= 3308 fps= 60 q=22.0 size=   47872KiB time=00:00:55.10 bitrate=7117.4kbits/s speed=1.01x elapsed=0:00:54.78    
+frame= 3339 fps= 60 q=22.0 size=   48384KiB time=00:00:55.61 bitrate=7126.7kbits/s speed=1.01x elapsed=0:00:55.30    
+frame= 3370 fps= 60 q=28.0 size=   48896KiB time=00:00:56.13 bitrate=7135.8kbits/s speed=1.01x elapsed=0:00:55.82    
+frame= 3401 fps= 60 q=28.0 size=   49152KiB time=00:00:56.65 bitrate=7107.7kbits/s speed=1.01x elapsed=0:00:56.33    
+frame= 3432 fps= 60 q=21.0 size=   49664KiB time=00:00:57.16 bitrate=7116.9kbits/s speed=1.01x elapsed=0:00:56.85    
+frame= 3463 fps= 60 q=28.0 size=   50176KiB time=00:00:57.68 bitrate=7125.8kbits/s speed=1.01x elapsed=0:00:57.36    
+frame= 3494 fps= 60 q=28.0 size=   50688KiB time=00:00:58.20 bitrate=7134.6kbits/s speed=1.01x elapsed=0:00:57.88    
+frame= 3525 fps= 60 q=21.0 size=   50944KiB time=00:00:58.71 bitrate=7107.6kbits/s speed=1.01x elapsed=0:00:58.40    
+frame= 3556 fps= 60 q=28.0 size=   51456KiB time=00:00:59.23 bitrate=7116.4kbits/s speed=1.01x elapsed=0:00:58.92    
+frame= 3587 fps= 60 q=28.0 size=   51968KiB time=00:00:59.75 bitrate=7125.1kbits/s speed=1.01x elapsed=0:00:59.43    
+[out#0/mp4 @ 000002e5ee237e80] video:52283KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.072687%
+frame= 3600 fps= 60 q=28.0 Lsize=   52321KiB time=00:00:59.96 bitrate=7147.5kbits/s speed=1.01x elapsed=0:00:59.52    

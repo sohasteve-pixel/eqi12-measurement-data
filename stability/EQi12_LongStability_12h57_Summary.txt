@@ -1,0 +1,12 @@
+﻿Beelink EQi12 - Docker/Home Server Long Stability Summary
+Status: user-requested early stop after exceeding 12-hour minimum
+Start: 2026-07-11T09:27:26.8830080-07:00
+Last sample: 2026-07-11T22:01:34.2558367-07:00
+ActualHours: 12.57
+Samples: 150
+HTTP failures: 0
+Container health/running failures: 0
+Maximum combined container restart count: 0
+Maximum sampled CPU percent: 52
+Minimum sampled available memory MB: 5472
+Final live status: three containers Up 18 hours and Healthy

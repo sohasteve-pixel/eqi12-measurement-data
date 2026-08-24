@@ -1,0 +1,42 @@
+﻿
+
+Test               : USB-C SSD 4GiB full read and deterministic SHA256
+Date               : 2026-07-12T05:49:34.1901915-07:00
+Drive              : D:
+SizeBytes          : 4294967296
+ReadHashSeconds    : 7.6
+ReadHashMiBs       : 539.1
+DiskSHA256         : B997C0A1C338FB5B2732245C751CE619D82148EDC523BEE9B931A52AB9993D82
+ExpectedSHA256     : B997C0A1C338FB5B2732245C751CE619D82148EDC523BEE9B931A52AB9993D82
+SHA256Match        : True
+PatternHashSeconds : 2.35
+CableLabel         : 3A (data rating not specified)
+
+
+
+
+
+
+Test      : USB-C SSD 4GiB write
+Date      : 2026-07-12T05:51:52.9848552-07:00
+Bytes     : 4294967296
+Seconds   : 104.41
+WriteMiBs : 39.23
+
+
+
+
+
+
+Test                : USB-C SSD 1GiB write retest
+Date                : 2026-07-12T05:57:55.9750497-07:00
+Bytes               : 1073741824
+WriteCallsSeconds   : 25.817
+WriteCallsMiBs      : 39.66
+DurableFlushSeconds : 0.118
+TotalSeconds        : 25.935
+TotalMiBs           : 39.48
+
+
+
+

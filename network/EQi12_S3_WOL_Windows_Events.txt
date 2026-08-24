@@ -1,0 +1,199 @@
+﻿
+
+TimeCreated  : 7/12/2026 6:08:08 AM
+Id           : 42
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system is entering sleep.
+               
+               Sleep Reason: Application API
+
+TimeCreated  : 7/12/2026 6:08:12 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Kernel-General
+Message      : The system time has changed to ‎2026‎-‎07‎-‎12T13:08:12.500000000Z from ‎2026‎-‎07‎-‎12T13:08:08.110177200Z.
+               Time Delta: 4389 ms
+               
+               Change Reason: System time synchronized with the hardware clock.
+               Process: '' (PID 4).
+               
+               RTC time: ‎2026‎-‎07‎-‎12T06:08:12.500000000Z
+               Current time zone bias: 420
+               RTC time is in UTC: false
+               System time was based on RTC time: false
+
+TimeCreated  : 7/12/2026 6:08:14 AM
+Id           : 107
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system has resumed from sleep.
+
+TimeCreated  : 7/12/2026 6:09:11 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Kernel-General
+Message      : The system time has changed to ‎2026‎-‎07‎-‎12T13:09:11.500000000Z from ‎2026‎-‎07‎-‎12T13:08:14.974669900Z.
+               Time Delta: 56525 ms
+               
+               Change Reason: System time synchronized with the hardware clock.
+               Process: '' (PID 4).
+               
+               RTC time: ‎2026‎-‎07‎-‎12T06:09:11.500000000Z
+               Current time zone bias: 420
+               RTC time is in UTC: false
+               System time was based on RTC time: false
+
+TimeCreated  : 7/12/2026 6:09:12 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Power-Troubleshooter
+Message      : The system has returned from a low power state.
+               
+               Sleep Time: ‎2026‎-‎07‎-‎12T13:08:06.920333900Z
+               Wake Time: ‎2026‎-‎07‎-‎12T13:09:11.865461600Z
+               
+               Wake Source: Device -Realtek PCIe GbE Family Controller
+
+TimeCreated  : 7/12/2026 6:09:43 AM
+Id           : 42
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system is entering sleep.
+               
+               Sleep Reason: Application API
+
+TimeCreated  : 7/12/2026 6:09:46 AM
+Id           : 107
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system has resumed from sleep.
+
+TimeCreated  : 7/12/2026 6:10:11 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Kernel-General
+Message      : The system time has changed to ‎2026‎-‎07‎-‎12T13:10:11.500000000Z from ‎2026‎-‎07‎-‎12T13:09:46.055236700Z.
+               Time Delta: 25444 ms
+               
+               Change Reason: System time synchronized with the hardware clock.
+               Process: '' (PID 4).
+               
+               RTC time: ‎2026‎-‎07‎-‎12T06:10:11.500000000Z
+               Current time zone bias: 420
+               RTC time is in UTC: false
+               System time was based on RTC time: false
+
+TimeCreated  : 7/12/2026 6:10:12 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Power-Troubleshooter
+Message      : The system has returned from a low power state.
+               
+               Sleep Time: ‎2026‎-‎07‎-‎12T13:09:43.597932100Z
+               Wake Time: ‎2026‎-‎07‎-‎12T13:10:11.870140500Z
+               
+               Wake Source: Device -Realtek PCIe GbE Family Controller
+
+TimeCreated  : 7/12/2026 6:10:48 AM
+Id           : 42
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system is entering sleep.
+               
+               Sleep Reason: Application API
+
+TimeCreated  : 7/12/2026 6:10:51 AM
+Id           : 107
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system has resumed from sleep.
+
+TimeCreated  : 7/12/2026 6:11:11 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Kernel-General
+Message      : The system time has changed to ‎2026‎-‎07‎-‎12T13:11:11.500000000Z from ‎2026‎-‎07‎-‎12T13:10:51.050344800Z.
+               Time Delta: 20449 ms
+               
+               Change Reason: System time synchronized with the hardware clock.
+               Process: '' (PID 4).
+               
+               RTC time: ‎2026‎-‎07‎-‎12T06:11:11.500000000Z
+               Current time zone bias: 420
+               RTC time is in UTC: false
+               System time was based on RTC time: false
+
+TimeCreated  : 7/12/2026 6:11:12 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Power-Troubleshooter
+Message      : The system has returned from a low power state.
+               
+               Sleep Time: ‎2026‎-‎07‎-‎12T13:10:43.524683200Z
+               Wake Time: ‎2026‎-‎07‎-‎12T13:11:11.868525200Z
+               
+               Wake Source: Device -Realtek PCIe GbE Family Controller
+
+TimeCreated  : 7/12/2026 6:11:48 AM
+Id           : 42
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system is entering sleep.
+               
+               Sleep Reason: Application API
+
+TimeCreated  : 7/12/2026 6:11:51 AM
+Id           : 107
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system has resumed from sleep.
+
+TimeCreated  : 7/12/2026 6:12:11 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Kernel-General
+Message      : The system time has changed to ‎2026‎-‎07‎-‎12T13:12:11.500000000Z from ‎2026‎-‎07‎-‎12T13:11:51.143016300Z.
+               Time Delta: 20356 ms
+               
+               Change Reason: System time synchronized with the hardware clock.
+               Process: '' (PID 4).
+               
+               RTC time: ‎2026‎-‎07‎-‎12T06:12:11.500000000Z
+               Current time zone bias: 420
+               RTC time is in UTC: false
+               System time was based on RTC time: false
+
+TimeCreated  : 7/12/2026 6:12:12 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Power-Troubleshooter
+Message      : The system has returned from a low power state.
+               
+               Sleep Time: ‎2026‎-‎07‎-‎12T13:11:43.581988600Z
+               Wake Time: ‎2026‎-‎07‎-‎12T13:12:11.867166300Z
+               
+               Wake Source: Device -Realtek PCIe GbE Family Controller
+
+TimeCreated  : 7/12/2026 6:12:48 AM
+Id           : 42
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system is entering sleep.
+               
+               Sleep Reason: Application API
+
+TimeCreated  : 7/12/2026 6:12:51 AM
+Id           : 107
+ProviderName : Microsoft-Windows-Kernel-Power
+Message      : The system has resumed from sleep.
+
+TimeCreated  : 7/12/2026 6:17:33 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Kernel-General
+Message      : The system time has changed to ‎2026‎-‎07‎-‎12T13:17:33.500000000Z from ‎2026‎-‎07‎-‎12T13:12:51.069371800Z.
+               Time Delta: 282430 ms
+               
+               Change Reason: System time synchronized with the hardware clock.
+               Process: '' (PID 4).
+               
+               RTC time: ‎2026‎-‎07‎-‎12T06:17:33.500000000Z
+               Current time zone bias: 420
+               RTC time is in UTC: false
+               System time was based on RTC time: false
+
+TimeCreated  : 7/12/2026 6:17:34 AM
+Id           : 1
+ProviderName : Microsoft-Windows-Power-Troubleshooter
+Message      : The system has returned from a low power state.
+               
+               Sleep Time: ‎2026‎-‎07‎-‎12T13:12:43.565023500Z
+               Wake Time: ‎2026‎-‎07‎-‎12T13:17:33.909372500Z
+               
+               Wake Source: Power Button
+
+
+
+
