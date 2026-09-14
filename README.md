@@ -18,15 +18,15 @@ Raw, reproducible measurement data from a real home server build on a **Beelink 
 
 | Directory | What's inside | Related guide |
 |---|---|---|
-| `power/` | Idle / load / sleep power logs, 24 h overnight sampling, Jellyfin transcode power | [Home server power cost guide](https://homelabtoolkit.com/build/home-server-power-cost-guide/) |
-| `codec/` | Intel QSV encode/decode matrices (H.264, HEVC, VP9, AV1), 4K60→1080p60 transcode logs, 2- and 4-stream concurrency | [Jellyfin Intel QSV setup](https://homelabtoolkit.com/build/jellyfin-intel-qsv-windows/) · [QSV codec matrix](https://homelabtoolkit.com/lab/intel-i3-1215u-qsv-codec-support/) |
-| `docker/` | Docker Compose stack benchmarks (nginx HTTP, PostgreSQL, Redis), auto-start & AC-loss recovery cycles | [Docker auto-start guide](https://homelabtoolkit.com/build/docker-desktop-auto-start-home-server/) · [AC power recovery](https://homelabtoolkit.com/build/mini-pc-ac-power-recovery/) |
-| `storage/` | Internal NVMe & USB port throughput, SSD idle power, S.M.A.R.T. snapshots | [Storage guide](https://homelabtoolkit.com/build/beelink-eqi12-windows-home-server/) |
-| `network/` | Dual 1GbE NIC tests, Wi-Fi 6 two-round bidirectional throughput, WOL from S3/S5 | [Networking results](https://homelabtoolkit.com/hardware/beelink-eqi12/) |
-| `stability/` | 12 h 57 m long-run stability, 24 h event summary | [Stability report](https://homelabtoolkit.com/lab/beelink-eqi12-docker-benchmark/) |
-| `memory/` | Windows Memory Diagnostic scheduled-run results | — |
-| `wsl/` | WSL2 Ubuntu baseline under the Docker stack | — |
-| `misc/` | Audio/BT tests, YouTube 2160p60 GPU decode, reboot cycle logs | [Full EQi12 review hub](https://homelabtoolkit.com/hardware/beelink-eqi12/) |
+| `power/` | Idle / load / sleep power logs, 24 h overnight sampling, Jellyfin transcode power | [Home server power cost guide](https://homelabtoolkit.com/build/home-server-power-cost-guide/) · [S5 / PME / RTC wake sources](https://homelabtoolkit.com/fix/acpi-s5-wake-sources-pme-rtc-wol/) |
+| `codec/` | Intel QSV encode/decode matrices (H.264, HEVC, VP9, AV1), 4K60→1080p60 transcode logs, 2- and 4-stream concurrency | [Jellyfin Intel QSV setup](https://homelabtoolkit.com/build/jellyfin-intel-qsv-windows/) · [QSV codec matrix](https://homelabtoolkit.com/lab/intel-i3-1215u-qsv-codec-support/) · [Jellyfin QSV calculator](https://homelabtoolkit.com/tools/jellyfin-qsv-calculator/) · [Jellyfin on Windows setup](https://homelabtoolkit.com/build/jellyfin-windows-home-server-setup/) |
+| `docker/` | Docker Compose stack benchmarks (nginx HTTP, PostgreSQL, Redis), auto-start & AC-loss recovery cycles | [Docker auto-start guide](https://homelabtoolkit.com/build/docker-desktop-auto-start-home-server/) · [AC power recovery](https://homelabtoolkit.com/build/mini-pc-ac-power-recovery/) · [Docker vs Proxmox on the same box](https://homelabtoolkit.com/compare/windows-docker-vs-proxmox-same-mini-pc/) · [Docker compose backup / restore drill](https://homelabtoolkit.com/build/docker-compose-backup-restore-drill/) |
+| `storage/` | Internal NVMe & USB port throughput, SSD idle power, S.M.A.R.T. snapshots | [Storage guide](https://homelabtoolkit.com/build/beelink-eqi12-windows-home-server/) · [NVMe SMART warnings](https://homelabtoolkit.com/fix/nvme-smart-critical-warning-temperature/) · [NVMe vs USB SSD over the network](https://homelabtoolkit.com/compare/nvme-vs-usb-ssd-network-share/) |
+| `network/` | Dual 1GbE NIC tests, Wi-Fi 6 two-round bidirectional throughput, WOL from S3/S5 | [Networking results](https://homelabtoolkit.com/hardware/beelink-eqi12/) · [Wake-on-LAN not working](https://homelabtoolkit.com/fix/wake-on-lan-not-working-causes/) · [Realtek NIC troubleshooting](https://homelabtoolkit.com/fix/realtek-r8169-driver-troubleshooting/) · [WOL troubleshooter](https://homelabtoolkit.com/tools/wol-troubleshooter/) |
+| `stability/` | 12 h 57 m long-run stability, 24 h event summary | [Stability report](https://homelabtoolkit.com/lab/beelink-eqi12-docker-benchmark/) · [Docker home server stability check](https://homelabtoolkit.com/build/docker-home-server-stability-check/) |
+| `memory/` | Windows Memory Diagnostic scheduled-run results | [Windows Memory Diagnostic guide](https://homelabtoolkit.com/fix/windows-memory-diagnostic-home-server/) |
+| `wsl/` | WSL2 Ubuntu baseline under the Docker stack | [Ubuntu live boot test](https://homelabtoolkit.com/lab/beelink-eqi12-ubuntu-live-boot-test/) · [Install Ubuntu on the EQi12](https://homelabtoolkit.com/build/beelink-eqi12-ubuntu-install-guide/) |
+| `misc/` | Audio/BT tests, YouTube 2160p60 GPU decode, reboot cycle logs | [Full EQi12 review hub](https://homelabtoolkit.com/hardware/beelink-eqi12/) · [Lab test footage](https://homelabtoolkit.com/lab/beelink-eqi12-test-footage/) |
 
 ## Quick facts (with the raw logs to back them up)
 
