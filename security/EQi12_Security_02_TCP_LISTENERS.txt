@@ -1,0 +1,43 @@
+
+Address        Port   PID Process                 
+-------        ----   --- -------                 
+::              135  1520 svchost                 
+0.0.0.0         135  1520 svchost                 
+172.18.0.1      139     4 System                  
+172.20.160.1    139     4 System                  
+172.26.176.1    139     4 System                  
+192.168.31.78   139     4 System                  
+::              445     4 System                  
+::             2179  2808 vmms                    
+0.0.0.0        2179  2808 vmms                    
+0.0.0.0        5040  8008 svchost                 
+::             7680  3908 svchost                 
+0.0.0.0        8096  2184 jellyfin                
+::            18080 12836 com.docker.backend      
+::1           18080 13632 wslrelay                
+127.0.0.1     18096 12836 com.docker.backend      
+::            19822  4800 lightningx-windows-amd64
+127.0.0.1     19827  4800 lightningx-windows-amd64
+127.0.0.1     19828  4800 lightningx-windows-amd64
+127.0.0.1     28385     4 System                  
+127.0.0.1     28390     4 System                  
+::1           42050  2624 OneDrive.Sync.Service   
+127.0.0.1     49350 12236 esrv_svc                
+127.0.0.1     49351  7932 esrv                    
+::            49664  1252 lsass                   
+0.0.0.0       49664  1252 lsass                   
+::            49665  1080 wininit                 
+0.0.0.0       49665  1080 wininit                 
+::            49666  1996 svchost                 
+0.0.0.0       49666  1996 svchost                 
+::            49667  2428 svchost                 
+0.0.0.0       49667  2428 svchost                 
+::            49668  4428 spoolsv                 
+0.0.0.0       49668  4428 spoolsv                 
+::1           49669  4700 jhi_service             
+::            49674  1200 services                
+0.0.0.0       49674  1200 services                
+172.18.0.1    51104  4800 lightningx-windows-amd64
+
+
+
