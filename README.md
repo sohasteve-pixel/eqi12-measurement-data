@@ -29,6 +29,8 @@ Raw, reproducible measurement data from a real home server build on a **Beelink 
 | `wsl/` | WSL2 Ubuntu baseline under the Docker stack | [Ubuntu live boot test](https://homelabtoolkit.com/lab/beelink-eqi12-ubuntu-live-boot-test/) · [Install Ubuntu on the EQi12](https://homelabtoolkit.com/build/beelink-eqi12-ubuntu-install-guide/) |
 | `misc/` | Audio/BT tests, YouTube 2160p60 GPU decode, reboot cycle logs | [Full EQi12 review hub](https://homelabtoolkit.com/hardware/beelink-eqi12/) · [Lab test footage](https://homelabtoolkit.com/lab/beelink-eqi12-test-footage/) |
 
+> **New to this dataset?** Start with [What 135 measurements on a \$200 mini PC actually show](https://homelabtoolkit.com/lab/mini-pc-home-server-135-measurements/) — the cross-dataset readout with every value's source file.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
