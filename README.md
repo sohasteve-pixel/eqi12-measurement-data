@@ -31,6 +31,15 @@ Raw, reproducible measurement data from a real home server build on a **Beelink 
 
 > **New to this dataset?** Start with [What 135 measurements on a \$200 mini PC actually show](https://homelabtoolkit.com/lab/mini-pc-home-server-135-measurements/) — the cross-dataset readout with every value's source file.
 
+## Cite this dataset
+
+**[`dataset/EQi12_headline_measurements.csv`](dataset/EQi12_headline_measurements.csv)** is a flat,
+machine-readable index of 43 headline A-class measurements — one row per number, with units,
+test conditions, evidence class, the raw source artifact and the published page. Use it when you
+want to quote or chart a value without parsing the mixed-format logs. Field dictionary, citation
+format (plain text + BibTeX), the A/B/C evidence boundary and known traps in the raw artifacts are
+in [`dataset/README.md`](dataset/README.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
