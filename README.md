@@ -40,6 +40,13 @@ want to quote or chart a value without parsing the mixed-format logs. Field dict
 format (plain text + BibTeX), the A/B/C evidence boundary and known traps in the raw artifacts are
 in [`dataset/README.md`](dataset/README.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_network_transfer_runs.csv`](dataset/EQi12_network_transfer_runs.csv)** is a
+row-per-run record of the twelve 4 GiB TCP transfers behind the wired-vs-Wi-Fi finding: both
+physical gigabit ports, both directions, local and peer timers, and the two invalidated Wi-Fi
+rounds retained with their exclusion reason so the conclusion can be audited. Field dictionary,
+the binary-vs-decimal unit trap, citation format and evidence boundary are in
+[`dataset/network-runs.md`](dataset/network-runs.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).

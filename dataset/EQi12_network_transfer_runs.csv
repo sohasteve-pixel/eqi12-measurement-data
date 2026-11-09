@@ -1,0 +1,13 @@
+﻿run_id,date,link_type,adapter,direction,role,bytes,seconds,throughput,throughput_unit,unit_convention,validity,exclusion_reason,source_file
+wired_p2_d1_local,2026-07-11,gigabit_ethernet,Realtek PCIe GbE #2 (Ethernet 2),EQi12_to_peer,local_sender,4294967296,37.66,108.76,MiB/s,binary_1MiB,valid,,network/EQi12_Wired_Direction1_4GiB.txt
+wired_p2_d1_peer,2026-07-11,gigabit_ethernet,Realtek PCIe GbE #2 (Ethernet 2),EQi12_to_peer,peer_receiver,4294967296,37.67,869.79,Mbps,binary_1MiB,valid,,network/EQi12_双千兆有线4GiB双向测试最终结果.txt
+wired_p2_d2_peer,2026-07-11,gigabit_ethernet,Realtek PCIe GbE #2 (Ethernet 2),peer_to_EQi12,peer_sender,4294967296,36.54,112.1,MiB/s,binary_1MiB,valid,,network/EQi12_双千兆有线4GiB双向测试最终结果.txt
+wired_p2_d2_local,2026-07-11,gigabit_ethernet,Realtek PCIe GbE #2 (Ethernet 2),peer_to_EQi12,local_receiver,4294967296,36.51,112.2,MiB/s,binary_1MiB,valid,,network/EQi12_Wired_Direction2_Receiver.txt
+wired_p1_d1_local,2026-07-12,gigabit_ethernet,"Realtek PCIe GbE #1 (Ethernet, MAC ..8E)",EQi12_to_peer,local_sender,4294967296,36.79,890.75,Mbps,binary_1MiB,valid,,network/EQi12_Wired_NIC1_Direction1_Sender.txt
+wired_p1_d1_peer,2026-07-12,gigabit_ethernet,"Realtek PCIe GbE #1 (Ethernet, MAC ..8E)",EQi12_to_peer,peer_timer,4294967296,36.81,890.17,Mbps,binary_1MiB,valid,,network/EQi12_双物理网口对应与NIC1双向测速结果.txt
+wired_p1_d2_local,2026-07-12,gigabit_ethernet,"Realtek PCIe GbE #1 (Ethernet, MAC ..8E)",peer_to_EQi12,local_receiver,4294967296,36.31,902.57,Mbps,binary_1MiB,valid,,network/EQi12_Wired_NIC1_Direction2_Receiver.txt
+wired_p1_d2_peer,2026-07-12,gigabit_ethernet,"Realtek PCIe GbE #1 (Ethernet, MAC ..8E)",peer_to_EQi12,peer_timer,4294967296,36.28,903.12,Mbps,binary_1MiB,valid,,network/EQi12_双物理网口对应与NIC1双向测速结果.txt
+wifi_r1_near_d1,2026-07-12,wifi_6_ax200,Intel Wi-Fi 6 AX200 160MHz,EQi12_to_peer,local_sender,4294967296,37.26,879.35,Mbps,binary_1MiB,invalidated,Ethernet cable insertion timing ambiguous; excluded from Wi-Fi conclusion,network/EQi12_WiFi_TwoRounds_Bidirectional.log
+wifi_r1_near_d2,2026-07-12,wifi_6_ax200,Intel Wi-Fi 6 AX200 160MHz,peer_to_EQi12,local_receiver,4294967296,36.23,904.32,Mbps,binary_1MiB,invalidated,Ethernet cable insertion timing ambiguous; excluded from Wi-Fi conclusion,network/EQi12_WiFi_TwoRounds_Bidirectional.log
+wifi_valid_d1,2026-07-12,wifi_6_ax200,Intel Wi-Fi 6 AX200 160MHz,EQi12_to_peer,local_sender,4294967296,52.99,618.37,Mbps,binary_1MiB,valid,,network/EQi12_WiFi6近距离双向测速_有效结论.txt
+wifi_valid_d2,2026-07-12,wifi_6_ax200,Intel Wi-Fi 6 AX200 160MHz,peer_to_EQi12,local_receiver,4294967296,37.66,870.18,Mbps,binary_1MiB,valid,,network/EQi12_WiFi6近距离双向测速_有效结论.txt
