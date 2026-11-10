@@ -47,6 +47,13 @@ rounds retained with their exclusion reason so the conclusion can be audited. Fi
 the binary-vs-decimal unit trap, citation format and evidence boundary are in
 [`dataset/network-runs.md`](dataset/network-runs.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_qsv_concurrent_samples.csv`](dataset/EQi12_qsv_concurrent_samples.csv)** is the
+row-per-sample CPU and GPU media-engine telemetry behind the "two 4K60 transcodes, not four"
+finding: 38 verbatim samples from the 2-stream and 4-stream Quick Sync runs, with ramp/wind-down
+samples retained and the >100% counter-sum flagged. Field dictionary, BibTeX, the A/B/C evidence
+boundary and the invalid-exit-code trap are in
+[`dataset/qsv-concurrent-samples.md`](dataset/qsv-concurrent-samples.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
