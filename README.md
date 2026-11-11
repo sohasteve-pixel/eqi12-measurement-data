@@ -54,6 +54,15 @@ samples retained and the >100% counter-sum flagged. Field dictionary, BibTeX, th
 boundary and the invalid-exit-code trap are in
 [`dataset/qsv-concurrent-samples.md`](dataset/qsv-concurrent-samples.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_long_stability_samples.csv`](dataset/EQi12_long_stability_samples.csv)** is the
+row-per-sample telemetry behind the "12.57-hour run, zero HTTP failures and zero container
+restarts" claim: 150 five-minute samples of the HTTP probe, container health/running counts,
+restart total, sampled CPU, available memory and disk/network rates, copied verbatim. The
+field dictionary, BibTeX, the A/B/C evidence boundary and six known traps (including the
+`-07:00` offset, the separate Windows event log warnings and the ~5-minute sampling blind
+spot) are in [`dataset/long-stability-samples.md`](dataset/long-stability-samples.md).
+CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
