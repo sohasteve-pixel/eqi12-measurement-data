@@ -63,6 +63,15 @@ field dictionary, BibTeX, the A/B/C evidence boundary and six known traps (inclu
 spot) are in [`dataset/long-stability-samples.md`](dataset/long-stability-samples.md).
 CC BY 4.0, append-only.
 
+**[`dataset/EQi12_usb_port_throughput_runs.csv`](dataset/EQi12_usb_port_throughput_runs.csv)** is
+the row-per-run record behind the "one USB-A port is ~8–10x slower" finding: the same SSD,
+cable and deterministic 50 GiB test file moved across four physical connectors (~301 MiB/s on
+three ports vs 36.36 MiB/s on the rear-leftmost), plus three 4 GiB slow-port retest rounds and a
+1 GiB write-only control, each in its own `test_group` so unlike payloads cannot be averaged by
+mistake. Full SHA256 hashes, the two-segment conservative wall-time note, the robocopy exit-code
+trap and the "do not infer a USB generation" scope boundary are in
+[`dataset/usb-port-runs.md`](dataset/usb-port-runs.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
