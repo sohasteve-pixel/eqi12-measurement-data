@@ -72,6 +72,15 @@ mistake. Full SHA256 hashes, the two-segment conservative wall-time note, the ro
 trap and the "do not infer a USB generation" scope boundary are in
 [`dataset/usb-port-runs.md`](dataset/usb-port-runs.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_wol_power_state_cycles.csv`](dataset/EQi12_wol_power_state_cycles.csv)** is the
+row-per-cycle record behind the "5/5 shutdown WOL but only 4/5 from sleep" finding: five S5
+cold-boot cycles and five S3 sleep cycles, copied verbatim from the raw script logs, with each
+S3 wake cross-checked against the Windows Power-Troubleshooter event log. The script alone
+reports 5/5 for S3; the retained tenth row shows the fifth wake came from the **Power Button**
+~4m50s after sleep, not a magic packet. Field dictionary, BibTeX, the A/B/C evidence boundary
+and eight known traps are in [`dataset/wol-power-state-cycles.md`](dataset/wol-power-state-cycles.md).
+CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
