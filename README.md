@@ -81,6 +81,17 @@ reports 5/5 for S3; the retained tenth row shows the fifth wake came from the **
 and eight known traps are in [`dataset/wol-power-state-cycles.md`](dataset/wol-power-state-cycles.md).
 CC BY 4.0, append-only.
 
+**[`dataset/EQi12_windows_port_audit_snapshot.csv`](dataset/EQi12_windows_port_audit_snapshot.csv)**
+is the row-per-record copy of the 2026-07-13 Windows listener and firewall-rule audit: 37 TCP
+listening bindings (with the bind address kept, not just the port number) and 169 enabled inbound
+allow rules, verbatim from the two PowerShell exports, combined under a `record_type` partition.
+Two untidy facts are retained on purpose: the raw export has 37 listener rows while the published
+article summarises 36 bindings, and 20 of the 169 rule names are duplicates — so name-based
+deduplication gives the wrong count. Field dictionary, BibTeX, the A/B/C evidence boundary and
+nine known traps are in
+[`dataset/windows-port-audit-snapshot.md`](dataset/windows-port-audit-snapshot.md).
+CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
