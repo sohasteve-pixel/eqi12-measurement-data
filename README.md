@@ -103,6 +103,15 @@ and seven known traps (including used-vs-available memory and the stretched 9.2 
 interval) are in [`dataset/monitoring-poll-overhead.md`](dataset/monitoring-poll-overhead.md).
 CC BY 4.0, append-only.
 
+**[`dataset/EQi12_browser_4k60_decode_samples.csv`](dataset/EQi12_browser_4k60_decode_samples.csv)**
+is the per-second GPU Video-Decode trace for browser 4K60 playback on the tested EQi12 in
+Edge: 35 raw H.264 local-file samples (avg 38.58% / max 42.91%) plus two YouTube VP9 2160p60
+run summaries (steady 30 s phase avg 25.61% / max 27.64%, zero new dropped frames over 2048
+frames). Verbatim counter values under a `run_id` partition. The field dictionary, citation,
+A/B/C boundary and six known traps (including the two different YouTube averages and the
+250 pre-phase dropped frames kept in the screenshots) are in
+[`dataset/browser-4k60-decode.md`](dataset/browser-4k60-decode.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
