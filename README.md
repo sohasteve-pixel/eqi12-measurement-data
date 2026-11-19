@@ -92,6 +92,17 @@ nine known traps are in
 [`dataset/windows-port-audit-snapshot.md`](dataset/windows-port-audit-snapshot.md).
 CC BY 4.0, append-only.
 
+**[`dataset/EQi12_monitoring_poll_overhead_samples.csv`](dataset/EQi12_monitoring_poll_overhead_samples.csv)**
+is the matched two-run capture (60 samples each, 120 rows) of the same EQi12 on the same
+morning: one run called `docker stats` for four containers on every sample, the other used
+one batched performance-counter request and captured container state outside the loop.
+Verbatim values from the two `power/` CSVs, combined under a `run_id` partition. The
+headline is a **+5.00 percentage-point / +29.7% relative** CPU inflation from the polling
+method — not from any monitoring product. Field dictionary, citation, the A/B/C boundary
+and seven known traps (including used-vs-available memory and the stretched 9.2 s sample
+interval) are in [`dataset/monitoring-poll-overhead.md`](dataset/monitoring-poll-overhead.md).
+CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
