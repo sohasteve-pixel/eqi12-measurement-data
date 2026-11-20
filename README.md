@@ -112,6 +112,14 @@ A/B/C boundary and six known traps (including the two different YouTube averages
 250 pre-phase dropped frames kept in the screenshots) are in
 [`dataset/browser-4k60-decode.md`](dataset/browser-4k60-decode.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_ac_restore_g3_cycles.csv`](dataset/EQi12_ac_restore_g3_cycles.csv)**
+is the row-per-record AC power-restore trace from three `State After G3 = S0` cycles on the
+tested EQi12: automatic power-on, Ethernet/IPv4 recovery, Jellyfin HTTP 200 and container
+start 40.36–40.97 s after boot, all 3/3 PASS. It deliberately keeps cycle 1's incomplete
+`COMPLETE_INVALID` read (0 s) next to its authoritative `CORRECTED_VALID` row (241.05 s).
+The field dictionary, citation, A/B/C boundary and seven known traps are in
+[`dataset/ac-restore-g3-cycles.md`](dataset/ac-restore-g3-cycles.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
