@@ -120,6 +120,15 @@ start 40.36–40.97 s after boot, all 3/3 PASS. It deliberately keeps cycle 1's 
 The field dictionary, citation, A/B/C boundary and seven known traps are in
 [`dataset/ac-restore-g3-cycles.md`](dataset/ac-restore-g3-cycles.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_reboot_5cycles.csv`](dataset/EQi12_reboot_5cycles.csv)**
+is the row-per-cycle warm-reboot trace from five consecutive scripted Windows restarts on
+the tested EQi12: boot-to-network 43.07–106 s (~2.5x spread on identical hardware),
+boot-to-Jellyfin 162.66–226.94 s, all 5/5 unattended. Distinct from the cold AC-loss
+(G3) dataset above. The empty `Jellyfin=` field is left blank, not filled, and the raw
+`RECOVERY` line's lack of a timestamp is documented. Field dictionary, citation, A/B/C
+boundary and seven known traps are in
+[`dataset/reboot-5cycles.md`](dataset/reboot-5cycles.md). CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
