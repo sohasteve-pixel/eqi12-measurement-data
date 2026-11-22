@@ -129,6 +129,16 @@ boot-to-Jellyfin 162.66–226.94 s, all 5/5 unattended. Distinct from the cold A
 boundary and seven known traps are in
 [`dataset/reboot-5cycles.md`](dataset/reboot-5cycles.md). CC BY 4.0, append-only.
 
+**[`dataset/EQi12_codec_qsv_matrix_with_sources.csv`](dataset/EQi12_codec_qsv_matrix_with_sources.csv)**
+joins the seven valid QSV codec tests on the tested EQi12 to the ffprobe metadata of the
+exact generated source clips: 1920x1080 60/1, HEVC Main10 `yuv420p10le`, VP9 Profile 0 and
+AV1 Main `yuv420p`, 5.000000 s, byte counts matching generation. AV1 decode passes at
+16.7x while AV1 encode is genuinely unsupported (exit `-40`, "Function not implemented");
+the earlier 0.03 s all-fail argument-error run is retained but flagged excluded. Field
+dictionary, citation, A/B/C boundary and seven known traps are in
+[`dataset/codec-qsv-matrix-with-sources.md`](dataset/codec-qsv-matrix-with-sources.md).
+CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
