@@ -139,6 +139,16 @@ dictionary, citation, A/B/C boundary and seven known traps are in
 [`dataset/codec-qsv-matrix-with-sources.md`](dataset/codec-qsv-matrix-with-sources.md).
 CC BY 4.0, append-only.
 
+**[`dataset/EQi12_memory_diagnostic_events.csv`](dataset/EQi12_memory_diagnostic_events.csv)**
+is the verbatim, one-row-per-field transcription of one unattended Windows Memory
+Diagnostic run on the tested EQi12 (2026-07-13, 16 GB): event 1101's full XML
+counters (`CompletionType=Pass`, `NumBadPages=0`, `TestDuration=1074 s`, `TestCount=12`,
+4,104,471 pages tested / 2,363 untested), the event 1201 short verdict, and the four
+containers healthy after reboot. UTC-vs-local time and the "pass is not 100% coverage"
+caveat are documented in [`dataset/memory-diagnostic-events.md`](dataset/memory-diagnostic-events.md)
+along with the field dictionary, citation, A/B/C boundary and nine known traps.
+CC BY 4.0, append-only.
+
 ## Quick facts (with the raw logs to back them up)
 
 - **~12 W idle at the wall** with nginx + PostgreSQL 17 + Redis 8 + Jellyfin all running (`power/`).
